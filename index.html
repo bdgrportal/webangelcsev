@@ -1,0 +1,1238 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Angelcsev Zoé – Független pénzügyi tanácsadó | Budapest</title>
+<meta name="description" content="Angelcsev Zoé független pénzügyi tanácsadó. Lakáshitel, biztosítás, nyugdíj, megtakarítás és állami támogatások egy kézben, díjmentes konzultációval. Foglalj időpontot online vagy Budapesten, a XI. kerületben.">
+<meta name="author" content="Angelcsev Zoé">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://zoe.eaglz.hu/">
+<meta property="og:type" content="profile">
+<meta property="og:locale" content="hu_HU">
+<meta property="og:site_name" content="Angelcsev Zoé">
+<meta property="og:title" content="Angelcsev Zoé – Független pénzügyi tanácsadó">
+<meta property="og:description" content="Nyolc pénzügyi terület egy kézben. Díjmentes konzultáció, online vagy személyesen.">
+<meta property="og:url" content="https://zoe.eaglz.hu/">
+<meta property="og:image" content="https://zoe.eaglz.hu/assets/og-zoe.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#0C1D30">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230C1D30'/%3E%3Ctext x='32' y='45' font-family='Helvetica,Arial,sans-serif' font-size='36' font-weight='700' text-anchor='middle' fill='%237DC8C0'%3EZ%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+/* ============================================================
+   ANGELCSEV ZOÉ — tanácsadói landing
+   Dizájn: EAGLZ / BD Gentischer paletta, finomított rendszerrel
+   Mobil: középre zárt · Desktop: klasszikus bal igazítású grid
+   ============================================================ */
+:root{
+  --navy:#132C46;
+  --navy-deep:#0C1D30;
+  --navy-soft:#1D3E60;
+  --teal:#7DC8C0;          /* sötét háttéren */
+  --teal-ink:#2C8A80;      /* világos háttéren, olvasható */
+  --teal-soft:#E8F5F3;
+  --purple:#8B6CB5;
+  --purple-ink:#6E4E9A;
+  --gold:#F0B429;
+  --gold-ink:#9A7100;
+  --green:#22C55E;
+  --bg:#F6F8FB;
+  --bg-alt:#FFFFFF;
+  --gray:#63758A;
+  --gray-soft:#8FA0B3;
+  --border:rgba(19,44,70,.10);
+  --border-strong:rgba(19,44,70,.16);
+  --shadow-sm:0 1px 2px rgba(12,29,48,.04),0 2px 8px rgba(12,29,48,.05);
+  --shadow-md:0 4px 12px rgba(12,29,48,.06),0 12px 32px rgba(12,29,48,.07);
+  --shadow-lg:0 8px 24px rgba(12,29,48,.09),0 24px 60px rgba(12,29,48,.10);
+  --fb:'Space Grotesk',system-ui,sans-serif;
+  --fd:'Poppins',system-ui,sans-serif;
+  --r-sm:10px; --r-md:14px; --r-lg:20px; --r-xl:26px;
+  --maxw:1120px;
+  --nav-h:64px;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+html{scroll-behavior:smooth;scroll-padding-top:calc(var(--nav-h) + 12px);-webkit-text-size-adjust:100%;}
+body{font-family:var(--fd);background:var(--bg);color:var(--navy);line-height:1.65;overflow-x:hidden;-webkit-font-smoothing:antialiased;}
+img{max-width:100%;display:block;}
+a{color:inherit;}
+:focus-visible{outline:2.5px solid var(--teal-ink);outline-offset:3px;border-radius:4px;}
+
+/* ---------- LAYOUT ---------- */
+.container{max-width:var(--maxw);margin:0 auto;padding:0 1.5rem;}
+.section{padding:5.5rem 0;position:relative;}
+.section-sm{padding:3.5rem 0;}
+.grid-bg{background-image:repeating-linear-gradient(0deg,rgba(19,44,70,.045) 0 1px,transparent 1px 46px),repeating-linear-gradient(90deg,rgba(19,44,70,.045) 0 1px,transparent 1px 46px);}
+.grid-bg-dark{background-image:repeating-linear-gradient(0deg,rgba(255,255,255,.035) 0 1px,transparent 1px 46px),repeating-linear-gradient(90deg,rgba(255,255,255,.035) 0 1px,transparent 1px 46px);}
+.dark{background:var(--navy-deep);color:#fff;}
+.dark .section-title{color:#fff;}
+.dark .section-sub{color:rgba(255,255,255,.58);}
+
+/* ---------- TIPOGRÁFIA ---------- */
+.eyebrow{display:inline-flex;align-items:center;gap:.4rem;font-family:var(--fb);font-size:.68rem;font-weight:700;text-transform:uppercase;letter-spacing:.12em;padding:.34rem .8rem;border-radius:100px;margin-bottom:1rem;}
+.eyebrow.teal{background:var(--teal-soft);color:var(--teal-ink);border:1px solid rgba(44,138,128,.22);}
+.eyebrow.purple{background:rgba(139,108,181,.10);color:var(--purple-ink);border:1px solid rgba(139,108,181,.22);}
+.eyebrow.gold{background:rgba(240,180,41,.12);color:var(--gold-ink);border:1px solid rgba(240,180,41,.32);}
+.dark .eyebrow.teal{background:rgba(125,200,192,.12);color:var(--teal);border-color:rgba(125,200,192,.28);}
+.dark .eyebrow.gold{background:rgba(240,180,41,.12);color:var(--gold);border-color:rgba(240,180,41,.3);}
+.section-title{font-family:var(--fb);font-size:clamp(1.65rem,3.4vw,2.35rem);font-weight:700;line-height:1.16;letter-spacing:-.02em;margin-bottom:.75rem;}
+.section-sub{font-size:.95rem;color:var(--gray);line-height:1.78;max-width:56ch;margin-bottom:2.6rem;}
+.head-center{text-align:center;}
+.head-center .section-sub{margin-left:auto;margin-right:auto;}
+
+/* ---------- GOMBOK ---------- */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:.5rem;font-family:var(--fb);font-weight:600;text-decoration:none;border-radius:12px;transition:transform .18s ease,box-shadow .18s ease,background .18s ease;cursor:pointer;border:none;}
+.btn:hover{transform:translateY(-2px);}
+.btn-primary{background:var(--navy);color:#fff;padding:.92rem 1.9rem;font-size:.94rem;box-shadow:0 6px 18px rgba(19,44,70,.22);}
+.btn-primary:hover{background:var(--navy-soft);box-shadow:0 10px 26px rgba(19,44,70,.28);}
+.btn-teal{background:var(--teal);color:var(--navy-deep);padding:.9rem 1.8rem;font-size:.92rem;box-shadow:0 6px 18px rgba(125,200,192,.32);}
+.btn-teal:hover{background:#6FBEB5;}
+.btn-ghost{background:rgba(255,255,255,.07);border:1.5px solid rgba(255,255,255,.18);color:rgba(255,255,255,.85);padding:.72rem 1.4rem;font-size:.82rem;}
+.btn-ghost:hover{background:rgba(255,255,255,.13);}
+.btn-outline{background:#fff;border:1.5px solid var(--border-strong);color:var(--navy);padding:.72rem 1.5rem;font-size:.85rem;box-shadow:var(--shadow-sm);}
+/* animált gyűrű a fő CTA körül */
+.cta-ring{position:relative;display:inline-block;border-radius:14px;padding:2px;background:linear-gradient(#fff,#fff);overflow:hidden;}
+.cta-ring::before{content:'';position:absolute;width:220%;height:220%;top:-60%;left:-60%;background:conic-gradient(var(--green) 22deg,transparent 105deg);animation:ringSpin 2.4s linear infinite;}
+.cta-ring > *{position:relative;z-index:1;}
+@keyframes ringSpin{to{transform:rotate(360deg);}}
+
+/* ---------- NAV ---------- */
+nav{position:fixed;inset:0 0 auto 0;z-index:200;height:var(--nav-h);display:flex;align-items:center;justify-content:space-between;padding:0 1.5rem;background:rgba(12,29,48,.72);backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);border-bottom:1px solid rgba(255,255,255,.06);transition:background .25s ease,box-shadow .25s ease;}
+nav.scrolled{background:rgba(12,29,48,.97);box-shadow:0 6px 26px rgba(12,29,48,.28);}
+.nav-logo{font-family:var(--fb);font-size:.88rem;font-weight:700;color:#fff;text-decoration:none;line-height:1.3;letter-spacing:-.01em;}
+.nav-logo span{display:block;font-size:.66rem;font-weight:600;color:var(--teal);letter-spacing:.05em;text-transform:uppercase;margin-top:1px;}
+.nav-links{display:flex;gap:1.35rem;list-style:none;align-items:center;}
+.nav-links a{color:rgba(255,255,255,.7);font-size:.78rem;text-decoration:none;font-family:var(--fb);font-weight:600;transition:color .18s;}
+.nav-links a:hover{color:var(--teal);}
+.nav-links .nav-cta{background:var(--teal);color:var(--navy-deep);padding:.5rem 1.1rem;border-radius:10px;font-weight:700;}
+.nav-links .nav-cta:hover{background:#6FBEB5;color:var(--navy-deep);}
+.nav-burger{display:none;flex-direction:column;gap:5px;background:none;border:none;cursor:pointer;padding:.5rem;}
+.nav-burger span{display:block;width:22px;height:2px;background:#fff;border-radius:2px;transition:transform .28s ease,opacity .2s ease;}
+.nav-burger.open span:nth-child(1){transform:translateY(7px) rotate(45deg);}
+.nav-burger.open span:nth-child(2){opacity:0;}
+.nav-burger.open span:nth-child(3){transform:translateY(-7px) rotate(-45deg);}
+.mobile-menu{position:fixed;top:var(--nav-h);left:0;right:0;z-index:199;background:rgba(12,29,48,.985);backdrop-filter:blur(18px);padding:.5rem 1.5rem 1.5rem;border-bottom:1px solid rgba(255,255,255,.08);display:none;text-align:center;}
+.mobile-menu.open{display:block;animation:mmIn .22s ease;}
+@keyframes mmIn{from{opacity:0;transform:translateY(-8px);}to{opacity:1;transform:none;}}
+.mobile-menu ul{list-style:none;}
+.mobile-menu li{border-bottom:1px solid rgba(255,255,255,.07);}
+.mobile-menu li:last-child{border:none;padding-top:1rem;}
+.mobile-menu a{display:block;padding:.85rem 0;color:rgba(255,255,255,.82);font-family:var(--fb);font-size:.95rem;font-weight:600;text-decoration:none;}
+.mobile-menu .nav-cta{display:inline-flex;background:var(--teal);color:var(--navy-deep);padding:.7rem 1.6rem;border-radius:12px;font-weight:700;}
+.scroll-bar{position:fixed;top:0;left:0;height:2px;background:linear-gradient(90deg,var(--teal),var(--purple));z-index:201;width:0;transition:width .1s linear;}
+@media(max-width:940px){.nav-links{display:none;}.nav-burger{display:flex;}}
+
+/* ---------- HERO ---------- */
+#hero{position:relative;padding:calc(var(--nav-h) + 4.5rem) 0 4.5rem;background:var(--navy-deep);overflow:hidden;}
+.hero-aurora{position:absolute;inset:0;pointer-events:none;}
+.hero-aurora::before,.hero-aurora::after{content:'';position:absolute;border-radius:50%;filter:blur(90px);opacity:.5;}
+.hero-aurora::before{width:560px;height:560px;background:radial-gradient(circle,rgba(125,200,192,.42),transparent 68%);top:-160px;right:-120px;animation:floaty 14s ease-in-out infinite;}
+.hero-aurora::after{width:520px;height:520px;background:radial-gradient(circle,rgba(139,108,181,.34),transparent 68%);bottom:-220px;left:-140px;animation:floaty 18s ease-in-out infinite reverse;}
+@keyframes floaty{0%,100%{transform:translate(0,0);}50%{transform:translate(28px,-26px);}}
+.hero-inner{position:relative;z-index:2;display:grid;grid-template-columns:1fr 330px;gap:4rem;align-items:center;}
+.hero-badge{display:inline-flex;align-items:center;gap:.5rem;background:rgba(125,200,192,.12);border:1px solid rgba(125,200,192,.26);border-radius:100px;padding:.36rem .9rem;font-family:var(--fb);font-size:.68rem;font-weight:700;color:var(--teal);letter-spacing:.06em;text-transform:uppercase;margin-bottom:1.15rem;}
+.hero-badge i{width:6px;height:6px;border-radius:50%;background:var(--green);box-shadow:0 0 0 0 rgba(34,197,94,.6);animation:pulseDot 2s infinite;}
+@keyframes pulseDot{70%{box-shadow:0 0 0 7px rgba(34,197,94,0);}100%{box-shadow:0 0 0 0 rgba(34,197,94,0);}}
+.hero-title{font-family:var(--fb);font-size:clamp(1.95rem,4.3vw,2.95rem);font-weight:700;color:#fff;line-height:1.14;letter-spacing:-.025em;margin-bottom:1rem;}
+.hero-title em{font-style:normal;background:linear-gradient(100deg,var(--teal),#A8D9D3);-webkit-background-clip:text;background-clip:text;color:transparent;}
+.hero-lead{font-size:.98rem;color:rgba(255,255,255,.7);line-height:1.8;margin-bottom:2rem;max-width:48ch;}
+.hero-actions{display:flex;align-items:center;gap:1rem;flex-wrap:wrap;}
+.hero-trust{display:flex;gap:1.5rem;flex-wrap:wrap;margin-top:2rem;padding-top:1.6rem;border-top:1px solid rgba(255,255,255,.09);}
+.hero-trust div{display:flex;align-items:center;gap:.45rem;font-family:var(--fb);font-size:.76rem;font-weight:600;color:rgba(255,255,255,.55);}
+.hero-trust span{color:var(--teal);font-weight:700;}
+/* fotó + szonár + flip */
+.photo-wrap{position:relative;display:flex;align-items:center;justify-content:center;padding:2.4rem;perspective:900px;}
+.sonar{position:absolute;top:50%;left:50%;width:262px;height:262px;transform:translate(-50%,-50%);border-radius:50%;background:conic-gradient(from 0deg,rgba(125,200,192,.85) 0deg,rgba(125,200,192,.4) 32deg,rgba(125,200,192,0) 84deg,rgba(125,200,192,0) 318deg,rgba(125,200,192,.5) 360deg);-webkit-mask:radial-gradient(circle at center,transparent 105px,#000 107px,#000 131px,transparent 132px);mask:radial-gradient(circle at center,transparent 105px,#000 107px,#000 131px,transparent 132px);animation:radar 3.2s linear infinite;pointer-events:none;}
+@keyframes radar{to{transform:translate(-50%,-50%) rotate(360deg);}}
+.flip{position:relative;width:224px;height:224px;transform-style:preserve-3d;transition:transform .6s cubic-bezier(.4,0,.2,1);border-radius:50%;}
+.photo-wrap:hover .flip{transform:rotateY(180deg);}
+.flip-face{position:absolute;inset:0;border-radius:50%;overflow:hidden;backface-visibility:hidden;-webkit-backface-visibility:hidden;border:3px solid rgba(125,200,192,.55);box-shadow:0 0 0 7px rgba(125,200,192,.10),0 18px 50px rgba(0,0,0,.4);background:#12283F;}
+.flip-face img{width:100%;height:100%;object-fit:cover;object-position:center 18%;}
+.flip-back{transform:rotateY(180deg);}
+.flip-back img{object-position:center 12%;}
+.photo-tag{position:absolute;bottom:1.4rem;left:50%;transform:translateX(-50%);background:rgba(12,29,48,.9);border:1px solid rgba(125,200,192,.3);border-radius:100px;padding:.32rem .9rem;font-family:var(--fb);font-size:.66rem;font-weight:700;color:var(--teal);letter-spacing:.06em;text-transform:uppercase;white-space:nowrap;}
+
+/* ---------- STATS ---------- */
+#stats{background:var(--navy);position:relative;overflow:hidden;}
+#stats::before{content:'';position:absolute;inset:0;background:linear-gradient(120deg,rgba(125,200,192,.10),transparent 55%,rgba(139,108,181,.09));}
+.stats-grid{position:relative;z-index:1;display:grid;grid-template-columns:repeat(4,1fr);}
+.stat{padding:2.4rem 1.4rem;text-align:center;position:relative;}
+.stat:not(:last-child)::after{content:'';position:absolute;right:0;top:22%;height:56%;width:1px;background:rgba(255,255,255,.11);}
+.stat-num{font-family:var(--fb);font-size:clamp(1.9rem,3.6vw,2.9rem);font-weight:700;color:var(--teal);line-height:1.1;letter-spacing:-.03em;margin-bottom:.45rem;}
+.stat-num .sfx{font-size:.6em;color:rgba(125,200,192,.72);}
+.stat-label{font-family:var(--fb);font-size:.72rem;font-weight:600;color:rgba(255,255,255,.5);text-transform:uppercase;letter-spacing:.1em;line-height:1.45;}
+
+/* ---------- PARTNEREK ---------- */
+#partners{background:#fff;padding:1.15rem 0;overflow:hidden;border-top:1px solid var(--border);border-bottom:1px solid var(--border);}
+.marquee{display:flex;width:max-content;animation:mq 64s linear infinite;}
+.marquee:hover{animation-play-state:paused;}
+.marquee img{height:34px;width:auto;opacity:.72;flex-shrink:0;}
+@keyframes mq{to{transform:translateX(-50%);}}
+@media(prefers-reduced-motion:reduce){.marquee{animation:none;}.sonar{animation:none;}.hero-aurora::before,.hero-aurora::after{animation:none;}.cta-ring::before{animation:none;}}
+
+/* ---------- KÁRTYA ALAP ---------- */
+.card{background:#fff;border:1.5px solid var(--border);border-radius:var(--r-lg);box-shadow:var(--shadow-sm);transition:transform .22s ease,box-shadow .22s ease,border-color .22s ease;}
+.card:hover{transform:translateY(-3px);box-shadow:var(--shadow-md);border-color:rgba(44,138,128,.3);}
+
+/* ---------- KINEK ---------- */
+.fw-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem;}
+.fw-card{padding:1.5rem 1.4rem;border-left:3px solid var(--teal);}
+.fw-icon{width:42px;height:42px;border-radius:12px;background:var(--teal-soft);display:flex;align-items:center;justify-content:center;font-size:1.25rem;margin-bottom:.85rem;}
+.fw-title{font-family:var(--fb);font-size:.94rem;font-weight:700;margin-bottom:.3rem;}
+.fw-text{font-size:.83rem;color:var(--gray);line-height:1.68;}
+
+/* ---------- SZOLGÁLTATÁSOK ---------- */
+.svc-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:1rem;}
+.svc-card{padding:1.4rem 1.25rem;cursor:pointer;position:relative;overflow:hidden;display:flex;flex-direction:column;}
+.svc-card::after{content:'';position:absolute;left:0;right:0;bottom:0;height:3px;background:linear-gradient(90deg,var(--teal),var(--purple));transform:scaleX(0);transform-origin:left;transition:transform .28s ease;}
+.svc-card:hover::after{transform:scaleX(1);}
+.svc-icon{font-size:1.6rem;margin-bottom:.7rem;}
+.svc-title{font-family:var(--fb);font-size:.92rem;font-weight:700;margin-bottom:.35rem;}
+.svc-desc{font-size:.79rem;color:var(--gray);line-height:1.6;margin-bottom:.85rem;}
+.svc-more{font-family:var(--fb);font-size:.72rem;font-weight:700;color:var(--teal-ink);display:inline-flex;align-items:center;gap:.3rem;margin-top:auto;}
+.svc-card:hover .svc-more{gap:.55rem;}
+.svc-tags{display:none;}
+
+/* ---------- MEGTAKARÍTÁS ---------- */
+.sav-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:.3rem 2.4rem;}
+.sav-item{display:flex;gap:1rem;align-items:flex-start;padding:1.05rem .8rem;margin:0 -.8rem;border-radius:var(--r-md);border-bottom:1px solid rgba(255,255,255,.07);transition:background .22s;}
+.sav-item:hover{background:rgba(240,180,41,.06);}
+.sav-badge{width:42px;height:42px;border-radius:12px;background:linear-gradient(140deg,var(--gold),#DC9A0E);display:flex;align-items:center;justify-content:center;flex-shrink:0;font-family:var(--fb);font-size:1.05rem;font-weight:700;color:var(--navy-deep);box-shadow:0 6px 16px rgba(240,180,41,.22);}
+.sav-text{font-size:.92rem;line-height:1.65;color:rgba(255,255,255,.7);}
+.sav-text .hl{color:var(--gold);font-weight:600;}
+.sav-text b{color:#fff;font-weight:600;}
+.sav-note{margin-top:2rem;padding:1.05rem 1.3rem;border-radius:var(--r-md);background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.09);font-size:.73rem;line-height:1.7;color:rgba(255,255,255,.42);}
+.sav-note b{color:rgba(255,255,255,.62);}
+
+/* ---------- FOLYAMAT ---------- */
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:1.1rem;counter-reset:s;}
+.step{padding:1.7rem 1.4rem;position:relative;}
+.step-num{width:40px;height:40px;border-radius:13px;background:linear-gradient(140deg,var(--teal),var(--purple));display:flex;align-items:center;justify-content:center;font-family:var(--fb);font-size:.85rem;font-weight:700;color:#fff;margin-bottom:1rem;box-shadow:0 6px 16px rgba(139,108,181,.24);}
+.step-title{font-family:var(--fb);font-size:.95rem;font-weight:700;margin-bottom:.4rem;}
+.step-text{font-size:.82rem;color:var(--gray);line-height:1.68;}
+
+/* ---------- ÖSSZEHASONLÍTÁS ---------- */
+.compare{max-width:760px;margin:0 auto;border-radius:var(--r-xl);overflow:hidden;border:1.5px solid rgba(255,255,255,.1);}
+.cmp-head,.cmp-row{display:grid;grid-template-columns:1fr 1fr;}
+.cmp-label{padding:1rem 1.5rem;font-family:var(--fb);font-size:.78rem;font-weight:700;text-transform:uppercase;letter-spacing:.09em;display:flex;align-items:center;gap:.55rem;}
+.cmp-label.a{background:rgba(255,255,255,.06);color:rgba(255,255,255,.45);}
+.cmp-label.b{background:rgba(125,200,192,.18);color:var(--teal);}
+.cmp-row{border-top:1px solid rgba(255,255,255,.07);}
+.cmp-cell{padding:.95rem 1.5rem;font-size:.87rem;line-height:1.55;display:flex;align-items:center;gap:.6rem;}
+.cmp-cell.a{color:rgba(255,255,255,.45);background:rgba(255,255,255,.03);}
+.cmp-cell.a::before{content:'–';font-weight:700;color:rgba(255,255,255,.22);}
+.cmp-cell.b{color:#fff;background:rgba(125,200,192,.07);}
+.cmp-cell.b::before{content:'✓';font-weight:700;color:var(--teal);}
+
+/* ---------- ONLINE ---------- */
+.online-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:.75rem;}
+.online-card{display:flex;align-items:center;gap:.85rem;padding:.95rem 1.15rem;border-radius:var(--r-md);text-decoration:none;background:#fff;border:1.5px solid var(--border);box-shadow:var(--shadow-sm);transition:transform .18s,box-shadow .18s,border-color .18s;}
+.online-card:hover{transform:translateY(-2px);box-shadow:var(--shadow-md);border-color:rgba(44,138,128,.4);}
+.online-emoji{width:38px;height:38px;border-radius:11px;background:var(--teal-soft);display:flex;align-items:center;justify-content:center;font-size:1.15rem;flex-shrink:0;transition:background .18s;}
+.online-card:hover .online-emoji{background:#D6ECE9;}
+.online-label{font-family:var(--fb);font-size:.8rem;font-weight:700;color:var(--navy);line-height:1.35;}
+.online-arrow{margin-left:auto;color:var(--teal-ink);font-weight:700;flex-shrink:0;opacity:.55;transition:transform .18s,opacity .18s;}
+.online-card:hover .online-arrow{transform:translateX(3px);opacity:1;}
+.online-help{margin-top:1.5rem;padding:1.3rem 1.5rem;border-radius:var(--r-lg);background:linear-gradient(135deg,var(--teal-soft),rgba(139,108,181,.08));border:1px solid rgba(44,138,128,.18);text-align:center;}
+
+/* ---------- MIÉRT ---------- */
+.why-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem;}
+.why-card{padding:1.5rem 1.4rem;}
+.why-icon{font-size:1.4rem;margin-bottom:.7rem;}
+.why-title{font-family:var(--fb);font-size:.92rem;font-weight:700;margin-bottom:.3rem;}
+.why-text{font-size:.83rem;color:var(--gray);line-height:1.68;}
+
+/* ---------- CSAPAT ---------- */
+#team{background:var(--navy-deep);position:relative;overflow:hidden;}
+#team::before{content:'';position:absolute;inset:0;background:linear-gradient(135deg,rgba(125,200,192,.07),transparent 60%,rgba(139,108,181,.06));}
+.team-toggle{position:relative;z-index:1;display:flex;align-items:center;justify-content:space-between;gap:1rem;cursor:pointer;padding:2rem 0;user-select:none;}
+.team-toggle:hover{opacity:.88;}
+.team-chevron{width:38px;height:38px;border-radius:50%;background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.13);display:flex;align-items:center;justify-content:center;flex-shrink:0;transition:transform .3s ease,background .2s;}
+.team-toggle.open .team-chevron{transform:rotate(180deg);background:rgba(125,200,192,.16);border-color:rgba(125,200,192,.3);}
+.team-body{display:none;padding:.5rem 0 2.5rem;position:relative;z-index:1;}
+.team-body.open{display:block;animation:mmIn .25s ease;}
+.team-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem;}
+.team-card{background:rgba(255,255,255,.04);border:1.5px solid rgba(255,255,255,.09);border-radius:var(--r-lg);padding:1.3rem;display:flex;align-items:center;gap:.9rem;transition:background .2s,border-color .2s;}
+.team-card:hover{background:rgba(255,255,255,.07);border-color:rgba(125,200,192,.25);}
+.team-avatar{width:54px;height:54px;border-radius:50%;overflow:hidden;flex-shrink:0;border:2px solid rgba(125,200,192,.28);background:rgba(125,200,192,.12);}
+.team-avatar img{width:100%;height:100%;object-fit:cover;}
+.team-name{font-family:var(--fb);font-size:.9rem;font-weight:700;color:#fff;}
+.team-role{font-size:.72rem;color:rgba(255,255,255,.44);margin-top:.1rem;line-height:1.4;}
+
+/* ---------- GYIK ---------- */
+.faq-list{max-width:820px;margin:0 auto;display:flex;flex-direction:column;gap:.7rem;}
+.faq{background:#fff;border:1.5px solid var(--border);border-radius:var(--r-lg);overflow:hidden;transition:border-color .2s,box-shadow .2s;}
+.faq[open]{border-color:rgba(139,108,181,.4);box-shadow:var(--shadow-md);}
+.faq summary{list-style:none;cursor:pointer;display:flex;align-items:center;justify-content:space-between;gap:1rem;padding:1.15rem 1.4rem;font-family:var(--fb);font-size:.95rem;font-weight:700;text-align:left;}
+.faq summary::-webkit-details-marker{display:none;}
+.faq summary svg{flex-shrink:0;color:var(--purple);transition:transform .25s;}
+.faq[open] summary svg{transform:rotate(180deg);}
+.faq-a{padding:0 1.4rem 1.35rem;font-size:.88rem;line-height:1.8;color:var(--gray);text-align:left;}
+.faq-a p+p{margin-top:.75rem;}
+
+/* ---------- KARRIER SÁV ---------- */
+#career{background:linear-gradient(135deg,var(--purple),#6E4E9A);position:relative;overflow:hidden;}
+#career::before{content:'';position:absolute;inset:0;background-image:repeating-linear-gradient(0deg,rgba(255,255,255,.05) 0 1px,transparent 1px 46px),repeating-linear-gradient(90deg,rgba(255,255,255,.05) 0 1px,transparent 1px 46px);}
+.career-inner{position:relative;z-index:1;display:flex;align-items:center;justify-content:space-between;gap:2rem;flex-wrap:wrap;padding:2.6rem 0;}
+.career-title{font-family:var(--fb);font-size:clamp(1.25rem,2.6vw,1.65rem);font-weight:700;color:#fff;margin-bottom:.3rem;}
+.career-sub{font-size:.88rem;color:rgba(255,255,255,.78);max-width:52ch;}
+
+/* ---------- CTA ---------- */
+#cta{padding:4.5rem 0;background:var(--bg);}
+.cta-box{background:linear-gradient(135deg,var(--navy),#20456B);border-radius:var(--r-xl);overflow:hidden;position:relative;box-shadow:var(--shadow-lg);}
+.cta-box::before{content:'';position:absolute;inset:0;background-image:repeating-linear-gradient(0deg,rgba(255,255,255,.035) 0 1px,transparent 1px 46px),repeating-linear-gradient(90deg,rgba(255,255,255,.035) 0 1px,transparent 1px 46px);}
+.cta-inner{position:relative;z-index:1;display:grid;grid-template-columns:1fr auto;gap:3rem;align-items:center;padding:3rem 3.4rem;}
+.cta-free{display:inline-flex;align-items:center;gap:.4rem;background:rgba(34,197,94,.14);border:1px solid rgba(34,197,94,.3);border-radius:100px;padding:.3rem .85rem;font-family:var(--fb);font-size:.68rem;font-weight:700;color:#4ADE80;margin-bottom:.9rem;}
+.cta-title{font-family:var(--fb);font-size:clamp(1.35rem,2.7vw,1.85rem);font-weight:700;color:#fff;line-height:1.25;margin-bottom:.6rem;letter-spacing:-.02em;}
+.cta-sub{font-size:.9rem;color:rgba(255,255,255,.65);line-height:1.7;max-width:46ch;}
+.cta-side{display:flex;flex-direction:column;align-items:center;gap:.8rem;}
+
+/* ---------- LEAD ---------- */
+#lead{background:var(--bg);padding:0 0 5rem;}
+.lead-box{max-width:660px;margin:0 auto;background:#fff;border:1.5px solid var(--border);border-radius:var(--r-xl);padding:2.6rem 2.8rem;box-shadow:var(--shadow-md);}
+.lead-row{display:grid;grid-template-columns:1fr 1fr;gap:.85rem;}
+.field{margin-bottom:.85rem;text-align:left;}
+.field label{display:block;font-family:var(--fb);font-size:.73rem;font-weight:700;margin-bottom:.35rem;}
+.field input,.field textarea{width:100%;border:1.5px solid var(--border);border-radius:var(--r-sm);padding:.7rem .9rem;font-size:.88rem;font-family:var(--fd);color:var(--navy);background:var(--bg);outline:none;transition:border-color .18s,background .18s;}
+.field input:focus,.field textarea:focus{border-color:var(--teal-ink);background:#fff;}
+.gdpr{display:flex;gap:.6rem;align-items:flex-start;font-size:.74rem;color:var(--gray);line-height:1.6;margin:1rem 0 1.2rem;text-align:left;}
+.gdpr input{margin-top:.25rem;flex-shrink:0;width:16px;height:16px;accent-color:var(--teal-ink);}
+.gdpr a{color:var(--teal-ink);font-weight:600;}
+.lead-send{width:100%;padding:.95rem;border:none;border-radius:12px;background:var(--navy);color:#fff;font-family:var(--fb);font-size:.94rem;font-weight:700;cursor:pointer;transition:background .2s;}
+.lead-send:hover{background:var(--navy-soft);}
+.lead-send:disabled{opacity:.6;cursor:default;}
+.lead-status{text-align:center;font-family:var(--fb);font-size:.82rem;font-weight:700;margin-top:.8rem;min-height:1.3rem;}
+.lead-trust{display:flex;justify-content:center;gap:1.3rem;flex-wrap:wrap;margin-top:1.2rem;font-family:var(--fb);font-size:.72rem;font-weight:600;color:var(--gray);}
+.lead-trust span{color:var(--green);}
+
+/* ---------- FOOTER ---------- */
+footer{background:var(--navy-deep);padding:2.6rem 0 2rem;}
+.foot-social{display:flex;justify-content:center;gap:.65rem;margin-bottom:1.7rem;padding-bottom:1.5rem;border-bottom:1px solid rgba(255,255,255,.08);}
+.fs{width:38px;height:38px;border-radius:11px;background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.1);display:flex;align-items:center;justify-content:center;color:rgba(255,255,255,.55);text-decoration:none;transition:all .2s;}
+.fs:hover{background:rgba(125,200,192,.18);border-color:rgba(125,200,192,.4);color:var(--teal);}
+.foot-inner{display:flex;align-items:flex-start;justify-content:space-between;gap:1.5rem;flex-wrap:wrap;}
+.foot-brand{font-family:var(--fb);font-size:.9rem;font-weight:700;color:#fff;}
+.foot-brand span{color:var(--teal);}
+.foot-sub{font-size:.72rem;color:rgba(255,255,255,.34);margin-top:.3rem;line-height:1.7;}
+.foot-links{display:flex;gap:1.2rem;flex-wrap:wrap;}
+.foot-links a{font-size:.74rem;color:rgba(255,255,255,.42);text-decoration:none;transition:color .2s;}
+.foot-links a:hover{color:var(--teal);}
+.foot-legal{margin-top:1.6rem;padding-top:1.2rem;border-top:1px solid rgba(255,255,255,.07);font-size:.68rem;color:rgba(255,255,255,.28);line-height:1.7;text-align:center;}
+
+/* ---------- MODALOK ---------- */
+.overlay{display:none;position:fixed;inset:0;z-index:900;background:rgba(12,29,48,.6);backdrop-filter:blur(6px);align-items:center;justify-content:center;padding:1rem;}
+.overlay.active{display:flex;animation:fadeIn .2s ease;}
+@keyframes fadeIn{from{opacity:0;}to{opacity:1;}}
+.modal{background:#fff;border-radius:var(--r-xl);max-width:540px;width:100%;max-height:88vh;overflow-y:auto;padding:2.2rem;position:relative;box-shadow:var(--shadow-lg);animation:slideUp .28s cubic-bezier(.22,.61,.36,1);text-align:left;}
+@keyframes slideUp{from{opacity:0;transform:translateY(26px);}to{opacity:1;transform:none;}}
+.modal-close{position:absolute;top:.9rem;right:1rem;background:none;border:none;font-size:1.35rem;cursor:pointer;color:var(--gray-soft);line-height:1;padding:.2rem .45rem;border-radius:8px;}
+.modal-close:hover{color:var(--navy);background:rgba(19,44,70,.06);}
+.modal-icon{font-size:2rem;margin-bottom:.5rem;}
+.modal-title{font-family:var(--fb);font-size:1.25rem;font-weight:700;margin-bottom:.4rem;}
+.modal-desc{font-size:.87rem;color:var(--gray);line-height:1.7;margin-bottom:1rem;}
+.modal-tags{display:flex;flex-wrap:wrap;gap:.4rem;margin-bottom:1.2rem;}
+.mtag{background:var(--teal-soft);border:1px solid rgba(44,138,128,.24);color:var(--teal-ink);font-size:.74rem;font-weight:600;padding:.26rem .7rem;border-radius:100px;font-family:var(--fb);cursor:pointer;transition:background .18s,transform .15s;}
+.mtag:hover{background:#D6ECE9;transform:translateY(-1px);}
+.modal-why{font-size:.86rem;line-height:1.78;margin-bottom:1.2rem;padding:.9rem 1.1rem;background:var(--teal-soft);border-left:3px solid var(--teal-ink);border-radius:0 12px 12px 0;}
+.modal-plabel{font-family:var(--fb);font-size:.7rem;font-weight:700;color:var(--teal-ink);text-transform:uppercase;letter-spacing:.08em;margin-bottom:.55rem;}
+.modal-steps{display:flex;flex-direction:column;gap:.45rem;}
+.mstep{font-size:.85rem;line-height:1.55;padding-left:1.2rem;position:relative;}
+.mstep::before{content:'→';position:absolute;left:0;color:var(--teal-ink);font-weight:700;}
+.prod-faq details{border:1.5px solid var(--border);border-radius:12px;margin-bottom:.5rem;overflow:hidden;}
+.prod-faq summary{padding:.72rem .95rem;font-family:var(--fb);font-size:.82rem;font-weight:700;cursor:pointer;list-style:none;display:flex;justify-content:space-between;align-items:center;gap:.6rem;}
+.prod-faq summary::-webkit-details-marker{display:none;}
+.prod-faq summary::after{content:'▾';color:var(--teal-ink);transition:transform .2s;}
+.prod-faq details[open] summary::after{transform:rotate(180deg);}
+.prod-faq details[open] summary{background:var(--teal-soft);}
+.prod-faq-a{padding:.75rem .95rem;font-size:.82rem;color:var(--gray);line-height:1.7;}
+.modal-back{background:none;border:none;color:var(--teal-ink);font-family:var(--fb);font-size:.78rem;font-weight:700;cursor:pointer;padding:0;margin-bottom:.75rem;}
+
+/* ---------- SCROLL REVEAL ---------- */
+.reveal{opacity:0;transform:translateY(18px);transition:opacity .55s ease,transform .55s ease;}
+.reveal.in{opacity:1;transform:none;}
+@media(prefers-reduced-motion:reduce){.reveal{opacity:1;transform:none;transition:none;}}
+
+/* ============================================================
+   RESPONSIVE
+   ============================================================ */
+@media(max-width:1000px){
+  .svc-grid{grid-template-columns:repeat(2,1fr);}
+  .steps{grid-template-columns:repeat(2,1fr);}
+  .fw-grid,.why-grid,.team-grid,.online-grid{grid-template-columns:repeat(2,1fr);}
+  .hero-inner{grid-template-columns:1fr 300px;gap:2.5rem;}
+}
+@media(max-width:820px){
+  .hero-inner{grid-template-columns:1fr;gap:2rem;}
+  .hero-photo{order:-1;}
+  .photo-wrap{padding:1.5rem;}
+  .cta-inner{grid-template-columns:1fr;padding:2.4rem 1.8rem;}
+  .sav-grid{grid-template-columns:1fr;gap:0;}
+  .compare{max-width:100%;}
+}
+/* MOBIL: mindent középre */
+@media(max-width:760px){
+  .section{padding:3.6rem 0;}
+  .container{padding:0 1.15rem;}
+  #hero,#stats,#partners,#for-whom,#services,#savings,#how,#compare,#online,#why,#faq,#cta,#lead,#career,footer{text-align:center;}
+  .section-sub,.hero-lead,.cta-sub,.career-sub{margin-left:auto;margin-right:auto;text-align:center;}
+  .hero-actions,.hero-trust{justify-content:center;}
+  .hero-trust{gap:1rem 1.4rem;}
+  .fw-grid,.why-grid,.svc-grid,.steps,.online-grid,.team-grid{grid-template-columns:1fr;}
+  .fw-card{border-left:none;border-top:3px solid var(--teal);}
+  .fw-icon,.step-num{margin-left:auto;margin-right:auto;}
+  .svc-icon,.why-icon{font-size:1.7rem;}
+  .sav-item{flex-direction:column;align-items:center;text-align:center;gap:.6rem;}
+  .team-card{flex-direction:column;text-align:center;gap:.7rem;}
+  .team-toggle{padding:1.6rem 0;}
+  .cmp-cell{padding:.8rem .9rem;font-size:.8rem;}
+  .cmp-label{padding:.8rem .9rem;font-size:.72rem;justify-content:center;}
+  .cta-side{width:100%;}
+  .cta-side .cta-ring,.cta-side .btn{width:100%;}
+  .lead-box{padding:1.8rem 1.3rem;}
+  .lead-row{grid-template-columns:1fr;}
+  .field,.gdpr,.faq summary,.faq-a{text-align:left;}
+  .career-inner{flex-direction:column;text-align:center;padding:2.2rem 0;}
+  .foot-inner{flex-direction:column;align-items:center;text-align:center;}
+  .foot-links{justify-content:center;}
+  .modal{padding:1.6rem 1.3rem;}
+}
+@media(max-width:520px){
+  .stats-grid{grid-template-columns:1fr 1fr;}
+  .stat:nth-child(2)::after{display:none;}
+  .stat{padding:1.7rem .8rem;}
+  .stat:nth-child(-n+2){border-bottom:1px solid rgba(255,255,255,.1);}
+  .hero-title{font-size:1.85rem;}
+  .flip,.sonar{transform-origin:center;}
+  .flip{width:186px;height:186px;}
+  .sonar{width:222px;height:222px;-webkit-mask:radial-gradient(circle at center,transparent 86px,#000 88px,#000 110px,transparent 111px);mask:radial-gradient(circle at center,transparent 86px,#000 88px,#000 110px,transparent 111px);}
+}
+</style>
+</head>
+<body>
+
+<div class="scroll-bar" id="scrollBar"></div>
+
+<!-- ============ NAV ============ -->
+<nav id="nav">
+  <a class="nav-logo" href="#hero">Angelcsev Zoé<span>pénzügyi tanácsadó</span></a>
+  <ul class="nav-links">
+    <li><a href="#for-whom">Kinek?</a></li>
+    <li><a href="#services">Területek</a></li>
+    <li><a href="#how">Hogyan?</a></li>
+    <li><a href="#online">Online</a></li>
+    <li><a href="#why">Miért én?</a></li>
+    <li><a href="#team">Csapatom</a></li>
+    <li><a href="#faq">GYIK</a></li>
+    <li><a href="#cta" class="nav-cta">Időpontot foglalok</a></li>
+  </ul>
+  <button class="nav-burger" id="burger" aria-label="Menü megnyitása" aria-expanded="false">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+<div class="mobile-menu" id="mobileMenu">
+  <ul>
+    <li><a href="#for-whom" class="mm">Kinek?</a></li>
+    <li><a href="#services" class="mm">Területek</a></li>
+    <li><a href="#how" class="mm">Hogyan?</a></li>
+    <li><a href="#online" class="mm">Online ügyintézés</a></li>
+    <li><a href="#why" class="mm">Miért én?</a></li>
+    <li><a href="#team" class="mm">Csapatom</a></li>
+    <li><a href="#faq" class="mm">GYIK</a></li>
+    <li><a href="#cta" class="mm nav-cta">Időpontot foglalok</a></li>
+  </ul>
+</div>
+
+<!-- ============ HERO ============ -->
+<section id="hero" class="grid-bg-dark">
+  <div class="hero-aurora"></div>
+  <div class="container">
+    <div class="hero-inner">
+      <div>
+        <h1 class="hero-title">El tudod képzelni, hogy fél órában választ kapsz minden pénzügyi kérdésedre? <em>Görgess tovább!</em></h1>
+        <p class="hero-lead">Angelcsev Zoé vagyok, független pénzügyi tanácsadó. Azért dolgozom, hogy nálad a legjobb ajánlat nyerjen, ne az, amelyik először szembejön.</p>
+        <div class="hero-actions">
+          <div class="cta-ring">
+            <a href="#cta" class="btn btn-primary">📅 Konzultáció foglalása</a>
+          </div>
+          <a href="#services" class="btn btn-ghost">Miben segítek?</a>
+        </div>
+        <div class="hero-trust">
+          <div><span>✓</span> Díjmentes</div>
+          <div><span>✓</span> Online vagy személyesen</div>
+          <div><span>✓</span> MNB-nyilvántartásban</div>
+        </div>
+      </div>
+      <div class="hero-photo">
+        <div class="photo-wrap">
+          <div class="sonar"></div>
+          <div class="flip">
+            <div class="flip-face"><img src="assets/zoe.jpg" alt="Angelcsev Zoé pénzügyi tanácsadó" width="900" height="900" fetchpriority="high"></div>
+            <div class="flip-face flip-back"><img src="assets/zoe-cartoon.jpg" alt="Angelcsev Zoé illusztráció" width="820" height="820" loading="lazy"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ STATOK ============ -->
+<section id="stats">
+  <div class="container">
+    <div class="stats-grid">
+      <div class="stat">
+        <div class="stat-num"><span class="count" data-target="300">0</span><span class="sfx">+</span></div>
+        <div class="stat-label">elégedett ügyfél</div>
+      </div>
+      <div class="stat">
+        <div class="stat-num"><span class="count" data-target="8">0</span></div>
+        <div class="stat-label">pénzügyi terület</div>
+      </div>
+      <div class="stat">
+        <div class="stat-num"><span class="count" data-target="6">0</span></div>
+        <div class="stat-label">fős csapat mögöttem</div>
+      </div>
+      <div class="stat">
+        <div class="stat-num" style="font-size:clamp(1.4rem,2.6vw,2rem);">végtelen</div>
+        <div class="stat-label">lelkesedés</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PARTNEREK ============ -->
+<section id="partners" aria-label="Partnereink">
+  <div class="marquee">
+    <img src="assets/partners.jpg" alt="Partner pénzintézetek és biztosítók" loading="lazy">
+    <img src="assets/partners.jpg" alt="" aria-hidden="true" loading="lazy">
+  </div>
+</section>
+
+<!-- ============ KINEK ============ -->
+<section id="for-whom" class="section" style="background:#fff;">
+  <div class="container">
+    <div class="head-center reveal">
+      <div class="eyebrow purple">Kinek vagyok igazán hasznos?</div>
+      <h2 class="section-title">Magadra ismersz?</h2>
+      <p class="section-sub">Nem termékeket árulok, hanem célokból indulok ki. Ezek a helyzetek azok, ahol a legtöbbet tudom hozzátenni.</p>
+    </div>
+    <div class="fw-grid">
+      <div class="card fw-card reveal"><div class="fw-icon">🎯</div><div class="fw-title">Pályakezdők</div><div class="fw-text">Akik rendszert akarnak építeni a pénzügyeikben, nem csak „félretenni valamit”.</div></div>
+      <div class="card fw-card reveal"><div class="fw-icon">💑</div><div class="fw-title">Fiatal párok</div><div class="fw-text">Akik közös jövőt terveznek, lakást, gyereket, biztonságot, és jól akarják indítani.</div></div>
+      <div class="card fw-card reveal"><div class="fw-icon">🏠</div><div class="fw-title">Lakásvásárlás előtt állók</div><div class="fw-text">Akik nem akarnak rossz hitelt felvenni, és tudni akarják, mi jár nekik valójában.</div></div>
+      <div class="card fw-card reveal"><div class="fw-icon">👨‍👩‍👧</div><div class="fw-title">Családosok</div><div class="fw-text">Akik gyereket nevelnek, és tudják, hogy a biztonság nem szerencse kérdése.</div></div>
+      <div class="card fw-card reveal"><div class="fw-icon">💼</div><div class="fw-title">Vállalkozók</div><div class="fw-text">Akiknek a magán- és a céges pénzügyek is fontosak, és átlátható képet szeretnének.</div></div>
+      <div class="card fw-card reveal"><div class="fw-icon">🔍</div><div class="fw-title">Akik összezavarodtak</div><div class="fw-text">Több biztosítás, hitel, megtakarítás, de senki nem rakta még össze a teljes képet.</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ TERÜLETEK ============ -->
+<section id="services" class="section grid-bg" style="background-color:var(--bg);">
+  <div class="container">
+    <div class="reveal">
+      <div class="eyebrow teal">Miben segíthetek?</div>
+      <h2 class="section-title">8 terület, egy kézben.</h2>
+      <p class="section-sub">Átnézem, ami már megvan, és megkeressük, mi hiányzik a terveidhez. Kattints bármelyikre a részletekért.</p>
+    </div>
+    <div class="svc-grid">
+
+      <div class="card svc-card reveal" onclick="openSvc(this)"
+        data-why="A lakásvásárlás a legtöbb ember életének legnagyobb pénzügyi döntése, és egy rosszul megválasztott hitel évtizedekig húzza a zsebből a pénzt. Több bank ajánlatát egyszerre látom, így megtaláljuk a számodra legkedvezőbbet."
+        data-steps="Igényfelmérés||Banki ajánlatok összehasonlítása||Dokumentumok összeállítása||Bankkal való ügyintézés végigkísérése||Szerződéskötés">
+        <div class="svc-icon">🏠</div>
+        <div class="svc-title">Lakásfinanszírozás</div>
+        <div class="svc-desc">Hitel, CSOK Plusz, jelzálog, kiváltás, a teljes piac legjobb ajánlatával.</div>
+        <span class="svc-more">Részletek ›</span>
+        <div class="svc-tags"><span>Otthon Start 3%</span><span>Lakáshitel</span><span>Építési hitelek</span><span>Személyi kölcsön</span><span>Babaváró</span><span>CSOK Plusz</span><span>Falusi CSOK</span></div>
+      </div>
+
+      <div class="card svc-card reveal" onclick="openSvc(this)"
+        data-why="Egy baleset, betegség vagy kár az előkészületleneket anyagilag padlóra küldheti. A megfelelő biztosítási csomag nem luxus, hanem egy háló, ami visszahozza a nyugalmadat."
+        data-steps="Meglévő szerződések áttekintése||Lefedetlen kockázatok azonosítása||Személyre szabott javaslat||Online vagy személyes szerződéskötés">
+        <div class="svc-icon">🛡️</div>
+        <div class="svc-title">Biztosítások</div>
+        <div class="svc-desc">30+ biztosítót vizsgálok meg: élet, baleset, egészség, vagyon.</div>
+        <span class="svc-more">Részletek ›</span>
+        <div class="svc-tags"><span>KGFB</span><span>CASCO</span><span>Lakásbiztosítás</span><span>Életbiztosítás</span><span>Egészségbiztosítás</span><span>Utasbiztosítás</span></div>
+      </div>
+
+      <div class="card svc-card reveal" onclick="openSvc(this)"
+        data-why="Az állami nyugdíj várhatóan az aktív kereset 40 és 60 százaléka között lesz. Minél korábban kezded, annál kevesebbet kell félretenned ugyanakkora eredményért."
+        data-steps="Jelenlegi megtakarítások felmérése||Nyugdíjcél meghatározása||Optimális konstrukció kiválasztása||Szerződéskötés és éves felülvizsgálat">
+        <div class="svc-icon">🌅</div>
+        <div class="svc-title">Nyugdíj</div>
+        <div class="svc-desc">Tervezz előre, míg megéri, az adó-visszatérítéssel együtt.</div>
+        <span class="svc-more">Részletek ›</span>
+        <div class="svc-tags"><span>Nyugdíjbiztosítás</span><span>TBSZ</span><span>Nyugdíjpénztár</span><span>Állampapír</span></div>
+      </div>
+
+      <div class="card svc-card reveal" onclick="openSvc(this)"
+        data-why="Egy gyerek számára az egyik legnagyobb ajándék, ha felnőttként nem nulláról kell kezdenie. Akár tanulmányokra, akár első lakásra gyűjtesz, az idő most a legjobb szövetségesed."
+        data-steps="Célösszeg és időtáv meghatározása||Megtakarítási forma kiválasztása||Állami támogatások beépítése||Szerződéskötés">
+        <div class="svc-icon">👶</div>
+        <div class="svc-title">Gyermekjövő</div>
+        <div class="svc-desc">A legjobb start, babakötvénytől az oktatási alapig.</div>
+        <span class="svc-more">Részletek ›</span>
+        <div class="svc-tags"><span>Babakötvény</span><span>Babaváró</span><span>TBSZ</span></div>
+      </div>
+
+      <div class="card svc-card reveal" onclick="openSvc(this)"
+        data-why="A legtöbb ember nem tudja, mennyivel drágább a bankja a piaci átlagnál: számlavezetési díj, hitelkártya, folyószámlahitel. Megmutatom, mi érhető el jobban."
+        data-steps="Jelenlegi bankszámla és hiteltermékek áttekintése||Jobb ajánlat azonosítása||Váltás segítése, dokumentáció||Online aktiválás vagy fióki ügyintézés">
+        <div class="svc-icon">🏦</div>
+        <div class="svc-title">Banki termékek</div>
+        <div class="svc-desc">Valóban a legjobb helyen vagy most? Megnézem.</div>
+        <span class="svc-more">Részletek ›</span>
+        <div class="svc-tags"><span>Személyi kölcsön</span><span>Lakáshitel</span></div>
+      </div>
+
+      <div class="card svc-card reveal" onclick="openSvc(this)"
+        data-why="CSOK, babaváró, falusi CSOK, otthonfelújítási támogatás: rengeteg pénz elérhető, de a feltételek és a határidők bonyolultak. Segítek eligazodni és maximálisan kihasználni."
+        data-steps="Jogosultság felmérése||Igénybe vehető támogatások listája||Szükséges dokumentumok összeállítása||Bankkal vagy hatósággal való ügyintézés">
+        <div class="svc-icon">💰</div>
+        <div class="svc-title">Állami támogatások</div>
+        <div class="svc-desc">Amit sokan nem ismernek vagy nem igényelnek, megtaláljuk együtt.</div>
+        <span class="svc-more">Részletek ›</span>
+        <div class="svc-tags"><span>CSOK Plusz</span><span>Falusi CSOK</span><span>Babaváró</span><span>Otthon Start 3%</span></div>
+      </div>
+
+      <div class="card svc-card reveal" onclick="openSvc(this)"
+        data-why="Vállalkozóként más kockázatokkal nézel szembe, és más lehetőségeid is vannak. Cafeteria, csoportos biztosítás, céges hitel: ezeket érdemes szakemberrel optimalizálni."
+        data-steps="Vállalkozás helyzetének felmérése||Igényekhez illő termékek azonosítása||Ajánlatok összehasonlítása||Szerződéskötés és adminisztráció segítése">
+        <div class="svc-icon">🏢</div>
+        <div class="svc-title">Vállalati megoldások</div>
+        <div class="svc-desc">Céges biztosítások, adóhatékony juttatások, vállalkozói finanszírozás.</div>
+        <span class="svc-more">Részletek ›</span>
+        <div class="svc-tags"><span>Cafeteria</span><span>Széchenyi hitelek</span><span>CASCO</span></div>
+      </div>
+
+      <div class="card svc-card reveal" onclick="openSvc(this)"
+        data-why="Az infláció a pénzed értékét folyamatosan csökkenti, aki nem fektet be, az valójában veszít. Megtaláljuk a céljaidhoz és a kockázattűrésedhez illő megoldást."
+        data-steps="Kockázati profil meghatározása||Befektetési cél és időtáv||Portfólió javaslat||Rendszeres felülvizsgálat">
+        <div class="svc-icon">📈</div>
+        <div class="svc-title">Befektetések</div>
+        <div class="svc-desc">Az igényedhez igazítva, nem az éppen ajánlott termékhez.</div>
+        <span class="svc-more">Részletek ›</span>
+        <div class="svc-tags"><span>Állampapír</span><span>TBSZ</span><span>Lakástakarékpénztár</span><span>Nyugdíjpénztár</span></div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============ MEGTAKARÍTÁS ============ -->
+<section id="savings" class="section dark grid-bg-dark">
+  <div class="container">
+    <div class="reveal">
+      <div class="eyebrow gold">Mennyit nyerhetsz rajta?</div>
+      <h2 class="section-title">Ennyi pénzt spórolhatsz meg.</h2>
+      <p class="section-sub">Ugyanaz a cél, más konstrukció, és a különbség sokszor egy egész évi megtakarítás.</p>
+    </div>
+    <div class="sav-grid">
+      <div class="sav-item reveal"><div class="sav-badge">%</div><div class="sav-text">A <span class="hl">legjobb lakáshitel</span> választásával <b>több millió forinttal</b> kevesebb lehet a teljes visszafizetésed</div></div>
+      <div class="sav-item reveal"><div class="sav-badge">%</div><div class="sav-text">A <span class="hl">legjobb bankszámlával</span> évente akár <b>20–100 ezer forint</b> maradhat a zsebedben</div></div>
+      <div class="sav-item reveal"><div class="sav-badge">%</div><div class="sav-text">A <span class="hl">legjobb nyugdíjcélú megtakarítással</span> <b>200–800 ezer forintot</b> spórolhatsz a költségeken, és több hozamra is szert tehetsz</div></div>
+      <div class="sav-item reveal"><div class="sav-badge">%</div><div class="sav-text">A <span class="hl">legjobb megtakarítási formával</span> <b>+1–2% hozamelőnyre</b> tehetsz szert</div></div>
+      <div class="sav-item reveal"><div class="sav-badge">%</div><div class="sav-text">A <span class="hl">legjobb lakástakarékkal</span> <b>több százezer forint</b> kamatbónuszt érhetsz el</div></div>
+      <div class="sav-item reveal"><div class="sav-badge">%</div><div class="sav-text">A <span class="hl">legjobb személyi kölcsönnel</span> <b>200–300 ezer forinttal</b> olcsóbban zárhatod a futamidőt</div></div>
+    </div>
+    <div class="sav-note">
+      <b>Fontos:</b> a fenti értékek tájékoztató jellegű, piaci összehasonlításokon alapuló nagyságrendek, nem ígéret és nem ajánlat. A ténylegesen elérhető megtakarítás minden esetben az egyedi feltételektől függ (összeg, futamidő, jövedelem, választott konstrukció, mindenkori kondíciók), és kizárólag személyre szabott kalkuláció során határozható meg.
+    </div>
+    <div style="text-align:center;margin-top:2.4rem;">
+      <div class="cta-ring"><a href="#cta" class="btn btn-primary">📅 Számoljuk ki a te esetedre</a></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FOLYAMAT ============ -->
+<section id="how" class="section" style="background:#fff;">
+  <div class="container">
+    <div class="reveal">
+      <div class="eyebrow purple">A folyamat</div>
+      <h2 class="section-title">Így néz ki velem a közös munka.</h2>
+      <p class="section-sub">Négy lépés, nyomás és sürgetés nélkül. A döntés minden pontban a tiéd marad.</p>
+    </div>
+    <div class="steps">
+      <div class="card step reveal"><div class="step-num">01</div><div class="step-title">Időpontfoglalás</div><div class="step-text">Online vagy az irodában, rugalmasan, a te időbeosztásodhoz igazítva. Az első találkozó kb. 30–60 perc.</div></div>
+      <div class="card step reveal"><div class="step-num">02</div><div class="step-title">Áttekintés és elemzés</div><div class="step-text">Megnézzük a meglévő pénzügyi programjaidat és a jövőbeli terveidet. Őszintén elmondom, mi jó és mi nem.</div></div>
+      <div class="card step reveal"><div class="step-num">03</div><div class="step-title">Konkrét javaslat</div><div class="step-text">Kiszámolt, alátámasztott ajánlatot kapsz. A döntés a tiéd, nincs nyomás és nincs siettetés.</div></div>
+      <div class="card step reveal"><div class="step-num">04</div><div class="step-title">Szerviz</div><div class="step-text">Évente legalább egyszer leülünk és frissítünk, hogy mindig a legjobb megoldásod legyen.</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ ÖSSZEHASONLÍTÁS ============ -->
+<section id="compare" class="section dark grid-bg-dark">
+  <div class="container">
+    <div class="head-center reveal">
+      <div class="eyebrow teal">Összehasonlítás</div>
+      <h2 class="section-title">Miért ne egyedül dönts?</h2>
+    </div>
+    <div class="compare reveal">
+      <div class="cmp-head">
+        <div class="cmp-label a">✕ Egyedül</div>
+        <div class="cmp-label b">✓ Velem</div>
+      </div>
+      <div class="cmp-row"><div class="cmp-cell a">termékek között keresgélsz</div><div class="cmp-cell b">célokból indulunk ki</div></div>
+      <div class="cmp-row"><div class="cmp-cell a">reklámokra és ajánlatokra támaszkodsz</div><div class="cmp-cell b">teljes képet nézünk</div></div>
+      <div class="cmp-row"><div class="cmp-cell a">nehéz összehasonlítani</div><div class="cmp-cell b">érthető rendszerben látod</div></div>
+      <div class="cmp-row"><div class="cmp-cell a">később derül ki a hiba</div><div class="cmp-cell b">előre modellezünk forgatókönyveket</div></div>
+      <div class="cmp-row"><div class="cmp-cell a">egyszeri döntés</div><div class="cmp-cell b">hosszú távú utánkövetés</div></div>
+    </div>
+    <div style="text-align:center;margin-top:2.6rem;">
+      <p style="font-family:var(--fb);font-size:.85rem;color:rgba(255,255,255,.45);margin-bottom:1.1rem;">Tedd próbára, egy konzultáció semmire nem kötelez.</p>
+      <div class="cta-ring"><a href="#cta" class="btn btn-primary">📅 Konzultáció foglalása</a></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ ONLINE ÜGYINTÉZÉS ============ -->
+<section id="online" class="section grid-bg" style="background-color:var(--bg);">
+  <div class="container">
+    <div class="reveal">
+      <div class="eyebrow teal">Digitális ügyintézés</div>
+      <h2 class="section-title">Online szerződések és felmérők</h2>
+      <p class="section-sub">Kattints, és indítsd el azonnal, személyes találkozó nélkül. Minden felület az OVB hivatalos rendszerében fut.</p>
+    </div>
+    <div class="online-grid">
+      <a class="online-card reveal" href="https://biztositasbazis.net/ovb-kgfb-casco/start?name=angelcsev.zoe#/Alapadatok" target="_blank" rel="noopener">
+        <span class="online-emoji">🚗</span><span class="online-label">Online gépjármű-biztosítás (KGFB, casco)</span><span class="online-arrow">›</span></a>
+      <a class="online-card reveal" href="https://online.ovb.hu/lakasbiztositas-informaciok/" target="_blank" rel="noopener">
+        <span class="online-emoji">🏠</span><span class="online-label">Lakásbiztosítás microsite</span><span class="online-arrow">›</span></a>
+      <a class="online-card reveal" href="https://ovbportal.hu/ovbphp/public/onlineKotesAsszisztencia.php?hash=angelcsev.zoe" target="_blank" rel="noopener">
+        <span class="online-emoji">☂️</span><span class="online-label">Online gépjármű-asszisztencia</span><span class="online-arrow">›</span></a>
+      <a class="online-card reveal" href="https://online.ovb.hu/bankszamladijkimutatas/" target="_blank" rel="noopener">
+        <span class="online-emoji">🏦</span><span class="online-label">Online bankszámla-információk</span><span class="online-arrow">›</span></a>
+      <a class="online-card reveal" href="https://ovbportal.hu/ovbphp/public/onlineKotesUtasbiztositas.php?hash=angelcsev.zoe" target="_blank" rel="noopener">
+        <span class="online-emoji">✈️</span><span class="online-label">Online utasbiztosítás</span><span class="online-arrow">›</span></a>
+      <a class="online-card reveal" href="https://online.ovb.hu/csob/" target="_blank" rel="noopener">
+        <span class="online-emoji">💳</span><span class="online-label">Csoportos beszedések</span><span class="online-arrow">›</span></a>
+      <a class="online-card reveal" href="https://csaladipenzugyek.hu/?t=angelcsev.zoe" target="_blank" rel="noopener">
+        <span class="online-emoji">👨‍👩‍👧</span><span class="online-label">Családi pénzügyek felmérő</span><span class="online-arrow">›</span></a>
+      <a class="online-card reveal" href="https://azennyugdijam.hu/?t=angelcsev.zoe" target="_blank" rel="noopener">
+        <span class="online-emoji">🌅</span><span class="online-label">Nyugdíj-előtakarékosság felmérő</span><span class="online-arrow">›</span></a>
+      <a class="online-card reveal" href="https://me.ovb.hu/angelcsev.zoe/" target="_blank" rel="noopener">
+        <span class="online-emoji">🪪</span><span class="online-label">Digitális névjegykártyám</span><span class="online-arrow">›</span></a>
+    </div>
+    <div class="online-help reveal">
+      <p style="font-family:var(--fb);font-size:.72rem;font-weight:600;color:var(--gray);letter-spacing:.06em;text-transform:uppercase;margin-bottom:.8rem;">Elakadtál? Segítek</p>
+      <a class="btn btn-teal" href="tel:+36703855067">📞 +36 70 385 5067</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ MIÉRT ÉN ============ -->
+<section id="why" class="section" style="background:#fff;">
+  <div class="container">
+    <div class="reveal">
+      <div class="eyebrow gold">Miért érdemes velem dolgozni?</div>
+      <h2 class="section-title">Ami megkülönböztet.</h2>
+      <p class="section-sub">Nem egy bank érdekét képviselem, hanem a tiedet.</p>
+    </div>
+    <div class="why-grid">
+      <div class="card why-card reveal"><div class="why-icon">🔍</div><div class="why-title">Teljes piaci áttekintés</div><div class="why-text">Nem egy termék és nem egy bank, hanem a legjobb elérhető ajánlat a cél.</div></div>
+      <div class="card why-card reveal"><div class="why-icon">🎯</div><div class="why-title">Őszinte értékelés</div><div class="why-text">Ha a meglévő szerződésed tökéletes, azt is megmondom.</div></div>
+      <div class="card why-card reveal"><div class="why-icon">⏱️</div><div class="why-title">Az idődet védem</div><div class="why-text">Amíg én keresgélek és ügyeket intézek, te a számodra fontos dolgokkal foglalkozol.</div></div>
+      <div class="card why-card reveal"><div class="why-icon">🔒</div><div class="why-title">Ellenőrizhető vagyok</div><div class="why-text">MNB-nyilvántartási szám: 125043000319. Bármikor visszaellenőrizhető.</div></div>
+      <div class="card why-card reveal"><div class="why-icon">🤝</div><div class="why-title">Nincs nyomás</div><div class="why-text">Kiszámolunk mindent és közösen alátámasztjuk. A döntés mindig a tiéd.</div></div>
+      <div class="card why-card reveal"><div class="why-icon">💸</div><div class="why-title">Teljesen díjmentes</div><div class="why-text">A tanácsadói díj a szolgáltatók díjazásába van beépítve, így neked a konzultáció díjmentes marad.</div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CSAPAT ============ -->
+<section id="team">
+  <div class="container">
+    <div class="team-toggle" id="teamToggle" role="button" tabindex="0" aria-expanded="false" aria-controls="teamBody">
+      <div>
+        <div style="font-family:var(--fb);font-size:.66rem;font-weight:700;text-transform:uppercase;letter-spacing:.11em;color:var(--teal);margin-bottom:.35rem;">Csapatom</div>
+        <div style="font-family:var(--fb);font-size:clamp(1.1rem,2.2vw,1.4rem);font-weight:700;color:#fff;">Akikkel még találkozhatsz</div>
+      </div>
+      <div class="team-chevron">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,.75)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+      </div>
+    </div>
+    <div class="team-body" id="teamBody">
+      <div class="team-grid">
+        <div class="team-card"><div class="team-avatar"><img src="assets/av-ta.png" alt="" loading="lazy"></div><div><div class="team-name">Tugyi Andrea</div><div class="team-role">Irodavezető · Vagyonbiztosítás specialista</div></div></div>
+        <div class="team-card"><div class="team-avatar"><img src="assets/av-fb.png" alt="" loading="lazy"></div><div><div class="team-name">Fáy Barna</div><div class="team-role">Banki üzletág specialista</div></div></div>
+        <div class="team-card"><div class="team-avatar"><img src="assets/av-tf.png" alt="" loading="lazy"></div><div><div class="team-name">Tímár Fruzsina</div><div class="team-role">Asszisztencia</div></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ GYIK ============ -->
+<section id="faq" class="section" style="background:var(--bg);">
+  <div class="container">
+    <div class="head-center reveal">
+      <div class="eyebrow purple">Gyakori kérdések</div>
+      <h2 class="section-title">Amit a legtöbben megkérdeznek.</h2>
+      <p class="section-sub">Ha valami kimaradt, kérdezd meg nyugodtan a konzultáción.</p>
+    </div>
+    <div class="faq-list">
+      <details class="faq reveal">
+        <summary>Mivel foglalkozik pontosan egy pénzügyi tanácsadó?<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg></summary>
+        <div class="faq-a">
+          <p>Az első lépés mindig a felmérés. Nincs olyan ajánlat, ami mindenkinek egyformán jó, ezért először azt tisztázzuk, hogy neked mi számít igazán: milyen célt szeretnél elérni, milyen ütemben, és ehhez képest milyen mozgásteret ad a jelenlegi helyzeted.</p>
+          <p>Ezután összegyűjtöm azokat a konstrukciókat, amelyek reálisan elvezethetnek a célodhoz. Összehasonlító kalkulátorokkal dolgozom, így nem véleményeket kapsz, hanem konkrét számokat: költségeket, díjakat, várható hozamokat.</p>
+          <p>A papírmunkát pedig leveszem a válladról. A döntés, hogy melyik ajánlatot választod, mindig a tiéd marad, a nyomtatványok kitöltése és a benyújtás viszont az én dolgom.</p>
+        </div>
+      </details>
+      <details class="faq reveal">
+        <summary>Hogyan lehet díjmentes a pénzügyi tanácsadás?<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg></summary>
+        <div class="faq-a">
+          <p>A tanácsadás számodra díjmentes. A pénzügyi közvetítői piacon a díjazás a szolgáltatótól érkezik, nem tőled. Ha tehát rajtam keresztül kötöd meg a szerződést, az egy forinttal sem lesz drágább, mintha közvetlenül a fiókban intéznéd.</p>
+          <p>A pénzügyi tanácsadás valódi ára amúgy is azon múlik, hogy jó döntést hozol-e. Egy elhamarkodott, rosszul megalapozott szerződés hosszú távon sokkal többe kerül.</p>
+        </div>
+      </details>
+      <details class="faq reveal">
+        <summary>Fiatal vagy. Miért veled dolgozzak?<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg></summary>
+        <div class="faq-a">
+          <p>Mert nem egyedül dolgozom. Mögöttem egy 6 fős csapat és egy több mint tíz éve működő irodai háttér áll, banki és vagyonbiztosítási specialistákkal, akikhez bármikor fordulhatok a te ügyedben.</p>
+          <p>A napi munkám a termékek és a feltételek összehasonlítása, és minden döntés előtt ellenőrzött kalkulációval dolgozom. Amit kapsz, az nem érzés, hanem szám.</p>
+        </div>
+      </details>
+      <details class="faq reveal">
+        <summary>Mi történik a szerződéskötés után?<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg></summary>
+        <div class="faq-a">
+          <p>Sok helyen a tanácsadás a szerződéskötéssel lezárul. Nálam ott kezdődik igazán: a pénzintézetek felé a továbbiakban is képvisellek, és rajtam keresztül a legtöbb esetben gyorsabban kapsz választ, egyszerűbben tudsz módosítani.</p>
+          <p>Amíg az ügyfelem vagy, elérhető számodra az irodai asszisztencia is, bármilyen szerződéssel kapcsolatos kérdéssel. Évente legalább egyszer pedig személyesen átnézzük, hogyan alakulnak a megtakarításaid.</p>
+        </div>
+      </details>
+    </div>
+    <div style="text-align:center;margin-top:2.2rem;">
+      <div class="cta-ring"><a href="#cta" class="btn btn-primary">📅 Van még kérdésem, foglalok időpontot</a></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ KARRIER ============ -->
+<section id="career">
+  <div class="container">
+    <div class="career-inner">
+      <div>
+        <div class="career-title">Nem ügyfélként, hanem kollégaként érkeznél?</div>
+        <div class="career-sub">Csapatot építek, és keresem azokat, akik szeretnének a pénzügyekhez érteni és önállóan dolgozni. Nézd meg, hogyan indul nálunk a pálya.</div>
+      </div>
+      <a class="btn btn-teal" href="https://ovbportal.hu/ovbphp/public/mtmenedzsment/felveteliKezeles.php?mthash=angelcsev.zoe" target="_blank" rel="noopener">🚀 Érdekel a lehetőség</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CTA ============ -->
+<section id="cta">
+  <div class="container">
+    <div class="cta-box reveal">
+      <div class="cta-inner">
+        <div>
+          <div class="cta-free">✓ Kötelezettségmentes és díjmentes</div>
+          <h2 class="cta-title">Foglalj időpontot egy rövid, személyes konzultációra.</h2>
+          <p class="cta-sub">Online meetingben vagy az irodában, a XI. kerületben. Kb. 30–60 perc, és tiszta képet kapsz a pénzügyi helyzetedről.</p>
+        </div>
+        <div class="cta-side">
+          <div class="cta-ring">
+            <a class="btn btn-primary" style="padding:1rem 2.1rem;" target="_blank" rel="noopener"
+               href="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ2PNciK05JJRy_Tt-Ky0Vz032zpFP1u6GQub3J2MNgmmJdnKs_Xbt6hawe2Ctm2gF3UFhARDdzj">📅 Időpontot foglalok</a>
+          </div>
+          <a class="btn btn-ghost" href="https://www.google.com/maps/search/?api=1&query=Budapest,+Kelenhegyi+%C3%BAt+43%2Fa,+1118" target="_blank" rel="noopener">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            Kelenhegyi út 43/a · Térkép
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ LEAD ============ -->
+<section id="lead">
+  <div class="container">
+    <div class="lead-box reveal">
+      <div style="text-align:center;">
+        <div class="eyebrow teal">Vagy írj, és visszahívlak</div>
+        <h2 class="section-title" style="font-size:clamp(1.3rem,2.6vw,1.7rem);">Kérdésed van? Hagyd itt, és jelentkezem.</h2>
+        <p class="section-sub" style="margin:0 auto 1.6rem;">Ha még nem foglalnál időpontot, csak kérdeznél: töltsd ki, és 24 órán belül felveszem veled a kapcsolatot.</p>
+      </div>
+      <form id="leadForm" novalidate>
+        <div class="lead-row">
+          <div class="field"><label for="leadName">Név *</label><input type="text" id="leadName" required autocomplete="name"></div>
+          <div class="field"><label for="leadPhone">Telefonszám *</label><input type="tel" id="leadPhone" required autocomplete="tel"></div>
+        </div>
+        <div class="lead-row">
+          <div class="field"><label for="leadEmail">E-mail cím *</label><input type="email" id="leadEmail" required autocomplete="email"></div>
+          <div class="field"><label for="leadTopic">Téma</label><input type="text" id="leadTopic" placeholder="pl. lakáshitel, nyugdíj..."></div>
+        </div>
+        <div class="field"><label for="leadMsg">Üzenet</label><textarea id="leadMsg" rows="3" placeholder="Írd le röviden, miben segíthetek..."></textarea></div>
+        <input type="text" id="leadWebsite" style="display:none;" tabindex="-1" autocomplete="off" aria-hidden="true">
+        <label class="gdpr"><input type="checkbox" id="leadGdpr" required>
+          <span>Hozzájárulok, hogy a megadott adataimat a kapcsolatfelvétel céljából kezeljék. Részletek az <a href="https://www.ovb.hu/szerviz/adatkezelesi-szabalyzat.html" target="_blank" rel="noopener">adatkezelési tájékoztatóban</a>.</span></label>
+        <button type="submit" class="lead-send" id="leadSendBtn">📮 Visszahívást kérek</button>
+        <div class="lead-status" id="leadStatus" role="status" aria-live="polite"></div>
+      </form>
+      <div class="lead-trust">
+        <div><span>✓</span> Díjmentes</div>
+        <div><span>✓</span> Kötelezettség nélkül</div>
+        <div><span>✓</span> Visszahívás 24 órán belül</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer>
+  <div class="container">
+    <div class="foot-social">
+      <a class="fs" href="https://me.ovb.hu/angelcsev.zoe/" target="_blank" rel="noopener" title="Digitális névjegykártya" aria-label="Digitális névjegykártya">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><rect x="2" y="5" width="20" height="14" rx="3"/><circle cx="8" cy="12" r="2.4"/><path d="M14 10h5M14 14h3"/></svg>
+      </a>
+      <a class="fs" href="mailto:angelcsev.zoe@ovb.hu" title="E-mail" aria-label="E-mail">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="3"/><path d="m3 7 9 6 9-6"/></svg>
+      </a>
+      <a class="fs" href="tel:+36703855067" title="Telefon" aria-label="Telefon">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.4 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"/></svg>
+      </a>
+    </div>
+    <div class="foot-inner">
+      <div>
+        <div class="foot-brand">Angelcsev Zoé — <span>független pénzügyi tanácsadó</span></div>
+        <div class="foot-sub">
+          OVB Allfinanz Magyarország · Gentischer Richárd iroda<br>
+          1118 Budapest, Kelenhegyi út 43/a. 1/2.<br>
+          MNB-nyilvántartási szám: 125043000319
+        </div>
+      </div>
+      <div class="foot-links">
+        <a href="mailto:angelcsev.zoe@ovb.hu">Kapcsolat</a>
+        <a href="#cta">Időpontfoglalás</a>
+        <a href="https://www.ovb.hu/szerviz/adatkezelesi-szabalyzat.html" target="_blank" rel="noopener">Adatkezelés</a>
+        <a href="https://ovbportal.hu/ovbphp/public/mtmenedzsment/felveteliKezeles.php?mthash=angelcsev.zoe" target="_blank" rel="noopener">Karrier</a>
+      </div>
+    </div>
+    <div class="foot-legal">
+      A honlapon szereplő tartalom tájékoztató jellegű, nem minősül ajánlattételnek vagy pénzügyi tanácsadásnak. A konkrét feltételeket minden esetben a szolgáltató mindenkori kondíciós listája és szerződési feltételei tartalmazzák.<br>
+      © <span id="year">2026</span> Angelcsev Zoé · Minden jog fenntartva.
+    </div>
+  </div>
+</footer>
+
+<!-- ============ MODALOK ============ -->
+<div class="overlay" id="svcOverlay" role="dialog" aria-modal="true" aria-labelledby="mTitle">
+  <div class="modal">
+    <button class="modal-close" id="svcClose" aria-label="Bezárás">✕</button>
+    <div class="modal-icon" id="mIcon"></div>
+    <div class="modal-title" id="mTitle"></div>
+    <div class="modal-desc" id="mDesc"></div>
+    <div class="modal-tags" id="mTags"></div>
+    <div class="modal-why" id="mWhy"></div>
+    <div class="modal-plabel">Az ügyintézés menete</div>
+    <div class="modal-steps" id="mSteps"></div>
+    <div style="margin-top:1.4rem;text-align:center;">
+      <a href="#cta" class="btn btn-primary" style="padding:.8rem 1.6rem;font-size:.86rem;" onclick="closeSvc()">📅 Beszéljünk erről</a>
+    </div>
+  </div>
+</div>
+
+<div class="overlay" id="prodOverlay" role="dialog" aria-modal="true" aria-labelledby="pTitle">
+  <div class="modal">
+    <button class="modal-close" onclick="closeProd()" aria-label="Bezárás">✕</button>
+    <button class="modal-back" onclick="closeProd()">← Vissza</button>
+    <div class="modal-icon" id="pIcon"></div>
+    <div class="modal-title" id="pTitle"></div>
+    <div class="modal-desc" id="pDesc"></div>
+    <div class="modal-plabel">Gyakori kérdések</div>
+    <div class="prod-faq" id="pFaq"></div>
+    <button class="btn btn-primary" style="margin-top:1.3rem;width:100%;" onclick="prodAsk()">📮 Ajánlatot kérek erre</button>
+  </div>
+</div>
+
+<script>
+/* ============ NAV ============ */
+(function(){
+  var nav=document.getElementById('nav'),burger=document.getElementById('burger'),menu=document.getElementById('mobileMenu'),bar=document.getElementById('scrollBar');
+  burger.addEventListener('click',function(){
+    var open=menu.classList.toggle('open');
+    burger.classList.toggle('open',open);
+    burger.setAttribute('aria-expanded',open);
+  });
+  document.querySelectorAll('.mm').forEach(function(a){a.addEventListener('click',function(){menu.classList.remove('open');burger.classList.remove('open');burger.setAttribute('aria-expanded','false');});});
+  function onScroll(){
+    nav.classList.toggle('scrolled',window.scrollY>20);
+    var h=document.documentElement.scrollHeight-window.innerHeight;
+    bar.style.width=(h>0?(window.scrollY/h)*100:0)+'%';
+  }
+  window.addEventListener('scroll',onScroll,{passive:true});onScroll();
+  document.getElementById('year').textContent=new Date().getFullYear();
+})();
+
+/* ============ SZÁMLÁLÓ ============ */
+(function(){
+  var els=document.querySelectorAll('.count');
+  if(!('IntersectionObserver' in window)){els.forEach(function(e){e.textContent=e.dataset.target;});return;}
+  var io=new IntersectionObserver(function(en){
+    en.forEach(function(e){
+      if(!e.isIntersecting)return;
+      io.unobserve(e.target);
+      var el=e.target,t=+el.dataset.target,cur=0,step=t/70;
+      var timer=setInterval(function(){
+        cur+=step;
+        if(cur>=t){cur=t;clearInterval(timer);}
+        el.textContent=Math.floor(cur).toLocaleString('hu-HU');
+      },18);
+    });
+  },{threshold:.4});
+  els.forEach(function(e){io.observe(e);});
+})();
+
+/* ============ SCROLL REVEAL ============ */
+(function(){
+  var els=document.querySelectorAll('.reveal');
+  if(!('IntersectionObserver' in window)){els.forEach(function(e){e.classList.add('in');});return;}
+  var io=new IntersectionObserver(function(en){
+    en.forEach(function(e,i){
+      if(e.isIntersecting){
+        var el=e.target;
+        setTimeout(function(){el.classList.add('in');}, Math.min(i*70,280));
+        io.unobserve(el);
+      }
+    });
+  },{threshold:.12,rootMargin:'0px 0px -40px 0px'});
+  els.forEach(function(e){io.observe(e);});
+})();
+
+/* ============ CSAPAT ============ */
+(function(){
+  var t=document.getElementById('teamToggle'),b=document.getElementById('teamBody');
+  function toggle(){
+    var open=b.classList.toggle('open');
+    t.classList.toggle('open',open);
+    t.setAttribute('aria-expanded',open);
+  }
+  t.addEventListener('click',toggle);
+  t.addEventListener('keydown',function(e){if(e.key==='Enter'||e.key===' '){e.preventDefault();toggle();}});
+})();
+
+/* ============ TERMÉK-ADATBÁZIS ============ */
+var PRODUCT_INFO = {
+'Otthon Start 3%':{icon:'🏠',desc:'Államilag támogatott lakáshitel, végig fix 3%-os kamattal, első lakásukat megszerzőknek. Akár 50 millió Ft, legfeljebb 25 éves futamidőre, így a törlesztőrészlet a teljes futamidő alatt kiszámítható.',faq:[
+['Ki veheti igénybe?','Alapesetben az igényelhet, akinek az elmúlt 10 évben nem volt saját belterületi lakóingatlana (van néhány kivétel, például 15 millió Ft alatti értékű vagy haszonélvezettel terhelt ingatlan). Legalább 180 nap TB-jogviszony és megfelelő igazolt jövedelem is szükséges.'],
+['Milyen ingatlanra?','Lakásnál legfeljebb 100 millió Ft, családi háznál 150 millió Ft lehet a vételár, és a négyzetméterár nem haladhatja meg az 1,5 millió Ft-ot.'],
+['Hányszor igényelhető?','Életedben egyszer. Éppen ezért érdemes szakértővel átgondolni, mikor és mire használod fel.'],
+['Kombinálható más támogatással?','Bizonyos feltételekkel igen, például CSOK Plusszal. Ez az egyik legfontosabb kérdés, amiben egyénileg érdemes számolni.']]},
+'Lakáshitel':{icon:'🏠',desc:'Hosszú távú, ingatlanfedezetű kölcsön vásárlásra, építésre, felújításra vagy bővítésre. A bankok kondíciói jelentősen eltérnek, ugyanarra a hitelre akár milliós különbség is lehet a teljes visszafizetésben.',faq:[
+['Mennyi önerő kell?','Jellemzően az ingatlan értékének 20%-a, de banktól és élethelyzettől függően ez eltérhet. Bizonyos esetekben kiegészítő fedezettel csökkenthető.'],
+['Fix vagy változó kamat?','Ma a legtöbben hosszabb kamatperiódust vagy végig fix kamatot választanak a kiszámíthatóság miatt. A helyes válasz a futamidőtől és a kockázattűrésedtől függ.'],
+['Mi az a JTM?','A jövedelemarányos törlesztési mutató: azt szabályozza, a nettó jövedelmed mekkora része mehet hiteltörlesztésre. Minden meglévő hiteled beleszámít.'],
+['Mennyi idő az ügyintézés?','Átlagosan 1 és 1,5 hónap a teljes folyamat az igényléstől a folyósításig, jó előkészítéssel rövidíthető.']]},
+'CSOK Plusz':{icon:'👨‍👩‍👧',desc:'Kamattámogatott lakáshitel gyermeket vállaló házaspároknak, legfeljebb 3%-os kamattal. Az igényelhető összeg a vállalt gyermekek számától függ, akár 50 millió Ft is lehet.',faq:[
+['Mekkora összeg igényelhető?','Egy gyermeknél legfeljebb 15, kettőnél 30, három vagy több gyermeknél 50 millió Ft.'],
+['Kik igényelhetik?','Házaspárok, ahol a feleség 41 év alatti, és legalább egy további gyermeket vállalnak. Az igényléshez TB-jogviszony is szükséges.'],
+['Mi történik, ha megszületik a gyermek?','Minden újabb gyermek után 10 millió Ft tőketartozás-elengedés jár, a második gyermektől.'],
+['Használt lakásra is jó?','Igen, vásárolható belőle használt és új ingatlan is, illetve építkezésre is felhasználható, értékhatárok mellett.']]},
+'Falusi CSOK':{icon:'🏡',desc:'Vissza nem térítendő állami támogatás preferált kistelepüléseken történő ingatlanvásárlásra és korszerűsítésre. A gyermekszámtól függő összeg fele vásárlásra, fele felújításra fordítható.',faq:[
+['Mely településeken érhető el?','A kormányrendeletben felsorolt preferált kistelepüléseken. A lista időről időre módosul, ezért igénylés előtt mindig ellenőrizzük.'],
+['Mire használható?','Ingatlan vásárlására és korszerűsítésére, bővítésére, akár kombinálva is.'],
+['Kell hozzá gyermek?','Igen, az összeg a meglévő és vállalt gyermekek számától függ.'],
+['Kombinálható más támogatással?','Igen, például falusi CSOK mellé kamattámogatott hitel is igényelhető. A részleteket egyénileg érdemes átszámolni.']]},
+'Babaváró':{icon:'👶',desc:'Szabad felhasználású, akár 11 millió Ft-os kölcsön fiatal házaspároknak, amely kamatmentessé válik, ha az első gyermek az igénylést követő 5 éven belül megszületik.',faq:[
+['Mennyi a törlesztőrészlet?','A kamattámogatott időszakban legfeljebb kb. 51 000 Ft havonta, az állami kezességvállalási díjjal együtt.'],
+['Mi jár a gyermekek után?','Az első gyermeknél a törlesztés 3 évre szüneteltethető, a másodiknál a tartozás 30%-át elengedik, a harmadiknál a teljes fennmaradó tartozás megszűnhet.'],
+['Mi van, ha nem születik gyermek 5 éven belül?','A kamattámogatást vissza kell fizetni, és a hitel piaci kamatozásúvá válik. Önhibán kívüli esetben méltányosság kérhető.'],
+['Lakásvásárlásra használható?','Igen, szabad felhasználású, és bizonyos feltételekkel önerőként is beszámítható.']]},
+'Személyi kölcsön':{icon:'💳',desc:'Gyors, fedezet nélküli kölcsön szabad felhasználásra, jellemzően pár napon belül folyósítják. Az ára magasabb, mint a jelzáloghiteleké, ezért a futamidőt és az összeget érdemes okosan megválasztani.',faq:[
+['Mekkora összeg érhető el?','Bankonként eltérő, jellemzően 300 ezer és 10 millió Ft között, a jövedelemtől függően.'],
+['Mi kell hozzá?','Igazolt, rendszeres jövedelem, pozitív hitelmúlt és bankszámlakivonat. Fedezet és önerő nem szükséges.'],
+['Mennyi idő alatt folyósítják?','A legjobb esetben 1 és 3 munkanap között, ez az egyik leggyorsabb hitelforma.'],
+['Kiválthatom vele a drágább hiteleimet?','Igen, gyakori a hitelkiváltás. Ha a meglévő hiteleid drágábbak, összevonással sokat lehet spórolni.']]},
+'Építési hitelek':{icon:'🧱',desc:'Építkezéshez igazított, szakaszos folyósítású jelzáloghitel. A bank a készültségi fokhoz igazodva utalja a részleteket, így a finanszírozás követi az építkezés ütemét.',faq:[
+['Miben más, mint egy sima lakáshitel?','Szakaszosan folyósítják, készültségi fok szerint, és a bank helyszíni értékbecslést kér az egyes szakaszokhoz.'],
+['Kell hozzá építési engedély?','Igen, illetve egyszerű bejelentés, valamint költségvetés és tervdokumentáció.'],
+['Kombinálható támogatással?','Igen, CSOK Plusz és falusi CSOK is építkezésre fordítható, feltételekkel.']]},
+'KGFB':{icon:'🚗',desc:'Kötelező gépjármű-felelősségbiztosítás. Minden autóra kell, de messze nem mindegy, mennyiért. A biztosítók díjai között jelentős különbségek vannak, évente érdemes összehasonlítani.',faq:[
+['Mikor válthatok biztosítót?','Az évfordulón, illetve új autó vásárlásakor azonnal. A felmondásnak az évforduló előtt 30 nappal be kell érkeznie.'],
+['Mi az a bonus-malus?','Károkozás-mentességi fokozat: minél régebb óta vezetsz kár nélkül, annál nagyobb kedvezményt kapsz. Váltásnál a fokozat veled megy.'],
+['Mitől függ a díj?','Életkor, lakóhely, az autó teljesítménye, káralakulás, és az, hogy melyik biztosítónál kötöd. Ugyanarra az autóra akár kétszeres különbség is lehet.']]},
+'CASCO':{icon:'🚙',desc:'A saját autódban keletkezett károkra nyújt fedezetet: töréskár, lopás, üvegkár, elemi kár, olyan esetekre is, amikor te vagy a hibás, vagy nincs kitől kártérítést kérni.',faq:[
+['Kötelező a casco?','Nem, de hitelre vett vagy lízingelt autónál a finanszírozó jellemzően előírja. Értékesebb autónál enélkül nagy kockázatot futsz.'],
+['Mennyi az önrész?','Választható, jellemzően 10% és egy fix minimum összeg. Magasabb önrésszel olcsóbb a díj.'],
+['Részleges casco létezik?','Igen, például csak lopás- és elemikár-fedezettel. Idősebb autóknál gyakran ez a racionális választás.']]},
+'Lakásbiztosítás':{icon:'🏠',desc:'Az otthonod és az ingóságaid védelme tűz, vihar, csőtörés, betörés és számos más kár ellen. A régi, felül nem vizsgált szerződések gyakran alulbiztosítottak vagy túlárazottak.',faq:[
+['Mikor válthatok?','Évfordulón, illetve minden év márciusában a lakásbiztosítási kampányidőszakban is. Utóbbit külön azért hozták létre, hogy könnyebb legyen jobb ajánlatra váltani.'],
+['Mi az az alulbiztosítottság?','Ha a biztosítási összeg kisebb, mint az ingatlan újjáépítési értéke, kár esetén arányosan kevesebbet fizet a biztosító. Régi szerződéseknél ez gyakori csapda.'],
+['A hitelhez kötött lakásbiztosításom jó?','Nem biztos, a banki minimum gyakran csak a bank érdekét védi. Érdemes felülvizsgálni, mit fedez valójában.']]},
+'Életbiztosítás':{icon:'🛡️',desc:'A családod anyagi biztonsága, ha veled történik valami, illetve megtakarítási elemmel kombinálva hosszú távú célokra is használható. A lényeg a megfelelő összeg és a jó struktúra.',faq:[
+['Kockázati vagy megtakarításos?','A kockázati tisztán védelmet ad alacsony díjért, a megtakarításos befektetést is tartalmaz. A kettő más célt szolgál, gyakran a kombinációjuk az ideális.'],
+['Mekkora biztosítási összeg kell?','Ökölszabály: a család 3 és 5 évnyi kiadása plusz a fennálló hitelek. Egyénileg számoljuk ki.'],
+['A hitelemhez kell életbiztosítás?','Jelzáloghitelnél erősen ajánlott, hogy a hitel ne maradjon a családon.']]},
+'Egészségbiztosítás':{icon:'⚕️',desc:'Privát egészségügyi ellátás várólisták nélkül: gyors diagnosztika, szakorvos, akár műtéti fedezet. Munkáltatói csomagként is egyre népszerűbb.',faq:[
+['Mit fedez?','Csomagtól függően járóbeteg-ellátás, diagnosztika, szakorvosi konzultáció, egyes csomagoknál műtétek és kórházi ellátás.'],
+['Meglévő betegségre is jó?','A már ismert betegségeket a biztosítók jellemzően kizárják vagy várakozási időt alkalmaznak, ezért érdemes időben kötni.'],
+['Családra is köthető?','Igen, családi csomagok is elérhetők, gyermekekkel együtt.']]},
+'Utasbiztosítás':{icon:'✈️',desc:'Külföldi utazásnál a legolcsóbb tétel, ami a legnagyobb bajtól véd: egy külföldi kórházi számla milliós is lehet. Egyszeri utakra és éves bérletként is köthető.',faq:[
+['Az útlemondásra is van fedezet?','Igen, storno biztosítással. Ezt a foglaláskor érdemes megkötni, nem indulás előtt.'],
+['Éves vagy egyszeri?','Ha évente többször utazol, az éves bérlet szinte mindig olcsóbb és kényelmesebb.'],
+['A bankkártyám mellé kell?','A kártyás biztosítások fedezete gyakran alacsony és feltételekhez kötött, érdemes megnézni, mit tud valójában.']]},
+'Nyugdíjbiztosítás':{icon:'🌅',desc:'Hosszú távú nyugdíjcélú megtakarítás, amelyre az állam évi 20% adó-visszatérítést ad, legfeljebb 130 000 Ft-ot. A befizetéseid befektetésre kerülnek, és nyugdíjba vonuláskor egyben vagy járadékként veheted fel.',faq:[
+['Mennyi adót kapok vissza?','A befizetéseid 20%-át, évente legfeljebb 130 000 Ft-ot ír jóvá a NAV a szerződéseden.'],
+['Mikor férek hozzá?','A szerződéskötéskor érvényes nyugdíjkorhatár betöltésekor. Korábbi hozzáférésnél a kedvezményeket vissza kell fizetni.'],
+['Mi van, ha nem tudom fizetni?','A legtöbb szerződés szüneteltethető vagy díjcsökkenthető, ezt a konstrukció kiválasztásánál előre figyelembe vesszük.']]},
+'Nyugdíjpénztár':{icon:'🌅',desc:'Önkéntes nyugdíjpénztári megtakarítás, 20% adó-visszatérítéssel, évente legfeljebb 150 000 Ft-tal. Rugalmas befizetés, munkáltatói hozzájárulással is kombinálható.',faq:[
+['Miben más, mint a nyugdíjbiztosítás?','Alacsonyabb költségű és rugalmasabb, de kevesebb garanciális elemet tartalmaz. A kettő jól kiegészíti egymást.'],
+['Választhatok portfóliót?','Igen, kockázatvállalás szerint, és később válthatsz is.']]},
+'TBSZ':{icon:'📈',desc:'Tartós befektetési számla: a hozamod 5 év után teljesen adómentes, 3 év után kedvezményes. Az egyik leghatékonyabb eszköz középtávú vagyonépítésre.',faq:[
+['Hogyan működik az adómentesség?','A nyitás évét követő 5. év végéig bent tartott befektetések hozama után nem fizetsz SZJA-t. 3 év után részleges kedvezmény jár.'],
+['Mennyit tehetek be?','A nyitás évében szabadon, utána az adott számlára már nem, ezért évente új TBSZ nyitható.'],
+['Mibe fektethetek rajta?','Állampapír, részvény, befektetési alap, a számlán belül szabadon átrendezheted.']]},
+'Állampapír':{icon:'🏛️',desc:'A magyar állam által garantált, kiszámítható befektetés. Jó alap minden portfólióhoz, de nem mindegy, melyik sorozat.',faq:[
+['Biztonságos?','Az állam garantálja a tőkéd és a kamatod visszafizetését, a legalacsonyabb kockázatú forintbefektetések közé tartozik.'],
+['Mikor férek hozzá a pénzhez?','Lejárat előtt is visszaváltható, jellemzően kis költséggel, így viszonylag likvid.'],
+['Melyik sorozatot válasszam?','Az élethelyzetedtől és a kamatkörnyezettől függ: fix vagy inflációkövető, rövid vagy hosszú.']]},
+'Babakötvény':{icon:'🍼',desc:'Állami megtakarítás a gyermeked jövőjére: a befizetésekre évi 10% állami támogatás jár, legfeljebb 12 000 Ft, a kamat pedig infláció feletti. A gyermek 18 éves korában férhet hozzá.',faq:[
+['Hogyan indul?','Minden 2005 után született gyermek kap életkezdési támogatást, ezt Start-számlára helyezve indul a Babakötvény.'],
+['Ki fizethet be rá?','Bárki: szülő, nagyszülő, rokon, évente akár többször is.'],
+['Mire költhető?','A gyermek 18 éves kora után szabadon felhasználhatja: tanulásra, lakhatásra, életkezdésre.']]},
+'Lakástakarékpénztár':{icon:'🏦',desc:'Kiszámítható, államilag szabályozott lakáscélú megtakarítás, amely a futamidő végén kedvezményes lakáshitellel is kombinálható.',faq:[
+['Mire használható fel?','Lakásvásárlás, építés, felújítás, korszerűsítés, illetve fennálló lakáshitel törlesztése.'],
+['Mennyire rugalmas?','A havi megtakarítás mértéke szerződéskötéskor rögzített, de a konstrukciók között nagy különbségek vannak, érdemes összehasonlítani.']]},
+'Széchenyi hitelek':{icon:'🏢',desc:'Államilag támogatott, kedvezményes kamatozású hitelprogram vállalkozásoknak: forgóeszközre, beruházásra, folyószámlahitelként.',faq:[
+['Milyen célra igényelhető?','Forgóeszköz-finanszírozás, beruházás, folyószámlahitel. A program több konstrukcióból áll, célonként eltérő feltételekkel.'],
+['Ki igényelheti?','KKV-k, jellemzően minimum 1 lezárt üzleti évvel. Az igénylés a KAVOSZ-on keresztül zajlik, az előkészítésben segítek.'],
+['Mennyi a kamat?','A konstrukciótól és az aktuális kamattámogatástól függ, jellemzően jelentősen a piaci szint alatt.']]},
+'Cafeteria':{icon:'🎁',desc:'Adóhatékony béren kívüli juttatások a munkavállalóknak, a SZÉP-kártyától a csoportos biztosításokig. Jól összeállítva a cégnek olcsóbb, a dolgozónak többet ér, mint a béremelés.',faq:[
+['Mi fér bele?','SZÉP-kártya, csoportos élet- és egészségbiztosítás, nyugdíjpénztári hozzájárulás, egészségpénztár, kedvezményes adózással.'],
+['Megéri a cégnek?','Igen, ugyanakkora nettó juttatás jellemzően kisebb összköltséggel adható, mint bérként, és erősíti a megtartást.']]}
+};
+
+/* ============ SZOLGÁLTATÁS MODAL ============ */
+function openSvc(card){
+  var tags=Array.prototype.slice.call(card.querySelectorAll('.svc-tags span')).map(function(t){return t.textContent;});
+  var steps=(card.getAttribute('data-steps')||'').split('||').filter(Boolean);
+  document.getElementById('mIcon').textContent=card.querySelector('.svc-icon').textContent;
+  document.getElementById('mTitle').textContent=card.querySelector('.svc-title').textContent;
+  document.getElementById('mDesc').textContent=card.querySelector('.svc-desc').textContent;
+  document.getElementById('mTags').innerHTML=tags.map(function(t){
+    var known=!!PRODUCT_INFO[t];
+    return '<span class="mtag"'+(known?' title="Kattints a részletekért"':'')+' data-p="'+t.replace(/"/g,'&quot;')+'">'+t+(known?' ›':'')+'</span>';
+  }).join('');
+  document.getElementById('mWhy').textContent=card.getAttribute('data-why')||'';
+  document.getElementById('mSteps').innerHTML=steps.map(function(s){return '<div class="mstep">'+s+'</div>';}).join('');
+  document.getElementById('svcOverlay').classList.add('active');
+  document.body.style.overflow='hidden';
+}
+function closeSvc(){
+  document.getElementById('svcOverlay').classList.remove('active');
+  document.body.style.overflow='';
+}
+document.getElementById('svcClose').addEventListener('click',closeSvc);
+document.getElementById('svcOverlay').addEventListener('click',function(e){if(e.target===this)closeSvc();});
+document.getElementById('mTags').addEventListener('click',function(e){
+  var t=e.target.closest('.mtag'); if(t) openProd(t.getAttribute('data-p'));
+});
+document.addEventListener('keydown',function(e){if(e.key==='Escape'){closeProd();closeSvc();}});
+
+/* ============ TERMÉK MODAL ============ */
+var _prod=null;
+function openProd(name){
+  var p=PRODUCT_INFO[name]; if(!p)return;
+  _prod=name;
+  document.getElementById('pIcon').textContent=p.icon;
+  document.getElementById('pTitle').textContent=name;
+  document.getElementById('pDesc').textContent=p.desc;
+  document.getElementById('pFaq').innerHTML=p.faq.map(function(f){
+    return '<details><summary>'+f[0]+'</summary><div class="prod-faq-a">'+f[1]+'</div></details>';
+  }).join('');
+  document.getElementById('prodOverlay').classList.add('active');
+}
+function closeProd(){document.getElementById('prodOverlay').classList.remove('active');}
+document.getElementById('prodOverlay').addEventListener('click',function(e){if(e.target===this)closeProd();});
+function prodAsk(){
+  var t=_prod||'';
+  closeProd();closeSvc();
+  var ti=document.getElementById('leadTopic'); if(ti)ti.value=t;
+  document.getElementById('lead').scrollIntoView({behavior:'smooth'});
+  setTimeout(function(){var n=document.getElementById('leadName');if(n)n.focus();},700);
+}
+
+/* ============ LEAD BEKÜLDÉS (Supabase) ============ */
+var LEAD_URL='https://spczsywkyblwhkutltxx.supabase.co/rest/v1/web_leads';
+var LEAD_KEY='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InNwY3pzeXdreWJsd2hrdXRsdHh4Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODI5MTU5NDksImV4cCI6MjA5ODQ5MTk0OX0.npj-z1dCkdE0xdf2pJx40oxe20zwTq5xu-V96NbB4Og';
+var LEAD_ADVISOR='angelcsev.zoe';
+
+document.getElementById('leadForm').addEventListener('submit',function(e){
+  e.preventDefault();
+  var st=document.getElementById('leadStatus'),btn=document.getElementById('leadSendBtn');
+  if(document.getElementById('leadWebsite').value) return;           /* honeypot */
+  var name=document.getElementById('leadName').value.trim();
+  var phone=document.getElementById('leadPhone').value.trim();
+  var email=document.getElementById('leadEmail').value.trim();
+  if(!name||!phone||!email||!document.getElementById('leadGdpr').checked){
+    st.textContent='Kérlek töltsd ki a csillaggal jelölt mezőket és fogadd el az adatkezelést.';
+    st.style.color='#EF4444';return;
+  }
+  var base={
+    name:name,phone:phone,email:email,
+    topic:document.getElementById('leadTopic').value.trim(),
+    message:document.getElementById('leadMsg').value.trim()
+  };
+  btn.disabled=true;st.textContent='⏳ Küldés...';st.style.color='var(--gray)';
+
+  function post(payload){
+    return fetch(LEAD_URL,{method:'POST',headers:{
+      'apikey':LEAD_KEY,'Authorization':'Bearer '+LEAD_KEY,
+      'Content-Type':'application/json','Prefer':'return=minimal'
+    },body:JSON.stringify(payload)});
+  }
+  /* Először advisor mezővel; ha a tábla még nem ismeri, jelöletlenül újrapróbáljuk. */
+  var withAdvisor=Object.assign({},base,{advisor:LEAD_ADVISOR,source:'zoe-landing'});
+  post(withAdvisor).then(function(r){
+    if(r.ok) return r;
+    var fallback=Object.assign({},base,{topic:(base.topic?base.topic+' ':'')+'['+LEAD_ADVISOR+']'});
+    return post(fallback);
+  }).then(function(r){
+    if(r.ok){
+      st.textContent='✓ Megkaptam, 24 órán belül jelentkezem!';
+      st.style.color='var(--green)';
+      document.getElementById('leadForm').reset();
+    }else{
+      st.textContent='Hiba történt, próbáld újra, vagy írj e-mailt.';
+      st.style.color='#EF4444';
+    }
+    btn.disabled=false;
+  }).catch(function(){
+    st.textContent='Hálózati hiba, próbáld újra.';
+    st.style.color='#EF4444';
+    btn.disabled=false;
+  });
+});
+</script>
+
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"ProfilePage",
+  "mainEntity":{
+    "@type":"Person",
+    "name":"Angelcsev Zoé",
+    "jobTitle":"Független pénzügyi tanácsadó",
+    "image":"https://zoe.eaglz.hu/assets/zoe.jpg",
+    "url":"https://zoe.eaglz.hu/",
+    "telephone":"+36703855067",
+    "email":"angelcsev.zoe@ovb.hu",
+    "worksFor":{"@type":"Organization","name":"OVB Allfinanz Magyarország"},
+    "address":{
+      "@type":"PostalAddress",
+      "streetAddress":"Kelenhegyi út 43/a. 1/2.",
+      "addressLocality":"Budapest",
+      "postalCode":"1118",
+      "addressCountry":"HU"
+    },
+    "knowsAbout":["lakáshitel","biztosítás","nyugdíj-előtakarékosság","megtakarítás","állami támogatások","befektetés"]
+  }
+}
+</script>
+</body>
+</html>
